@@ -8,10 +8,10 @@
     <div class="page-content">
       <div class="wrapper">
         <div class="work">
-          <h1 class="page-heading">{{ page.title }}</h1>
+          <h1><b>{{ page.title }}</b></h1>
           {{ content }}
 
-          <h2 class="current"> Current contest</h2>
+          <h2 class="current"> Current contest </h2>
           {% for item in page.currentcontest %}
           <div class="work-item">
             <img
@@ -21,13 +21,13 @@
             />
             <span class="work-text">
               <strong>{{ item.title }}</strong>
-              &mdash;
+              <br>
               {{ item.description }}
             </span>
           </div>
           {% endfor %}
 
-	  <h2 class="upcoming"> Upcoming contest</h2>
+	  <h2 class="upcoming"> Upcoming contest </h2>
           {% for item in page.upcomingcontest %}
           <div class="work-item">
             <img
@@ -37,13 +37,13 @@
             />
             <span class="work-text">
               <strong>{{ item.title }}</strong>
-              &mdash;
+              <br>
               {{ item.description }}
             </span>
           </div>
           {% endfor %}
 
-          <h2 class="past"> Past contest</h2>
+          <h2 class="past"> Past contest </h2>
           {% for item in page.pastcontest %}
           <div class="work-item">
             <img
@@ -53,7 +53,7 @@
             />
             <span class="work-text">
               <strong>{{ item.title }}</strong>
-              &mdash;
+              <br>
               {{ item.description }}
             </span>
           </div>
