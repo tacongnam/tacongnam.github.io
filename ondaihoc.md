@@ -1,14 +1,15 @@
-# Current contest
+---
+layout: work
+title: Ôn đại học
+slug: /ondaihoc
 
-STT |Name |Link |
-0 | | |
+currentcontest:
 
-# Upcoming contest
+upcomingcontest:
+  - title: Đề thi thử THPT Chuyên Bắc Ninh lần 2 2021
+    description: Link
 
-STT |Name |Time |
-1 |Đề thi thử THPT Chuyên Bắc Ninh lần 2 2021 |8AM 10/1 |
+pastcontest:
 
-# Past contest
 
-STT |Name |Link |
-0 | | |
+---
