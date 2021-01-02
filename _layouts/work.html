@@ -24,7 +24,7 @@
               <br>
               {{ item.description }}
 	      <br>
-              {{ item.attachment }}
+              <a href = "{{ item.attachment | absolute_url}}">{{ item.attachmentdescription }}</a>
             </span>
           </div>
           {% endfor %}
@@ -42,7 +42,7 @@
               <br>
               {{ item.description }}
               <br>
-              {{ item.attachment }}
+              <a href = "{{ item.attachment | absolute_url}}">{{ item.attachmentdescription }}</a>
             </span>
           </div>
           {% endfor %}
@@ -60,7 +60,7 @@
               <br>
               {{ item.description }}
               <br>
-              {{ item.attachment }}
+              <a href = "{{ item.attachment | absolute_url}}">{{ item.attachmentdescription }}</a>
             </span>
           </div>
           {% endfor %}
