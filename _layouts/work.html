@@ -14,11 +14,6 @@
           <h2 class="current"> Current contest </h2>
           {% for item in page.currentcontest %}
           <div class="work-item">
-            <img
-              src="{{ item.image.src | absolute_url }}"
-              alt="{{ item.image.alt }}"
-              class="work-bubble"
-            />
             <span class="work-text">
               <strong>{{ item.title }}</strong>
               <br>
@@ -34,11 +29,6 @@
 	  <h2 class="upcoming"> Upcoming contest </h2>
           {% for item in page.upcomingcontest %}
           <div class="work-item">
-            <img
-              src="{{ item.image.src | absolute_url }}"
-              alt="{{ item.image.alt }}"
-              class="work-bubble"
-            />
             <span class="work-text">
               <strong>{{ item.title }}</strong>
               <br>
@@ -54,11 +44,6 @@
           <h2 class="past"> Past contest </h2>
           {% for item in page.pastcontest %}
           <div class="work-item">
-            <img
-              src="{{ item.image.src | absolute_url }}"
-              alt="{{ item.image.alt }}"
-              class="work-bubble"
-            />
             <span class="work-text">
               <strong>{{ item.title }}</strong>
               <br>
