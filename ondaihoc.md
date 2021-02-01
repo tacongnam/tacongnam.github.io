@@ -20,4 +20,11 @@ pastcontest:
     attachmentdescription: Lời giải 40 - 50
     description: 
 
+  - title: Weekly test 1
+    src: /assets/img/work/water.jpg
+    alt: Picture
+    attachment: /assets/pdf/weeklytest1.pdf
+    attachmentdescription: Tải đáp án và hướng dẫn chấm
+
+
 ---
