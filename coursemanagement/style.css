@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    margin: 20px auto;
+}
+
+.tab-pane {
+    padding: 20px 10px 10px 10px;
+    overflow: scroll; 
+    height: 70vh;
+}
+
+img, input, textarea {
+    max-width: 75%;
+    margin: 10px auto;
+}
+
+#result {
+    margin: 15px 10px 5px 10px;
+}
+
+#step1_1 {
+    display: none;
+}
+
+tr:hover {
+    background-color: #D3D3D3;
+}

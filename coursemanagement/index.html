@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timetable Management</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Just an unimportant navbar -->
+    <nav class="navbar navbar-expand-lg bg-success">
+        <div class="container-fluid">
+            <a class="navbar-brand text-light" href="#">Timetable Management</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </nav>
+    <!-- End of navbar -->
+
+    <!-- Container -->
+    <div class="container">
+        <!-- Begin of nav tabs -->
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="step1-tab" data-toggle="tab" href="#step1" role="tab" aria-controls="step1"
+                    aria-selected="true">Bước 1: Nạp dữ liệu</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="step2-tab" data-toggle="tab" href="#step2" role="tab"
+                    aria-controls="step2" aria-selected="false">Bước 2: Chọn thời gian học</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="step3-tab" data-toggle="tab" href="#step3" role="tab" aria-controls="step3"
+                    aria-selected="false">Bước 3: Chọn môn học</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="step4-tab" data-toggle="tab" href="#step4" role="tab" aria-controls="step4"
+                    aria-selected="false">Bước 4: Chạy thử</a>
+            </li>
+        </ul>
+        <!-- End of nav tabs -->
+        <!-- Begin of nav tabs content -->
+        <div class="tab-content" id="myTabContent">
+            <!-- Get Data tab -->
+            <div class="tab-pane fade show active" id="step1" role="tabpanel" aria-labelledby="step1-tab">
+                <ol>
+                    <li>Xoá 2 dòng đầu của file excel, để tên cột của file excel lần lượt là: 
+                        <p>
+                            <button class="js-textareacopybtn" style="vertical-align:top;">Copy tên cột</button>
+                            <textarea class="js-copytextarea" rows=1 cols=100>Kỳ	Khoa_Viện	ClassID	ClassAID	CourseCode	CourseName	Tên_HP_Tiếng_Anh	Khối lượng	Note	ClassOrder	Day	Time	BĐ	KT	Kíp	Week	Room	NeedExp	SLĐK	Capacity	Trạng_thái	ClassType	Đợt_mở	ManageCode</textarea>
+                          </p>
+                    </li>
+                    <li>Vào frame dưới đây upload file excel để chuyển thành tệp JSON:<br><iframe src="https://products.aspose.app/cells/vi/conversion/xlsx-to-json" style="width: 100%; height: 200px;"></iframe></li>
+                    <li>Upload file JSON đó tại đây:
+                        <input type="file" id="myFile" multiple size="50">
+                    </li>
+                </ol>
+            </div>
+            <!-- Get study time / date tab -->
+            <div class="tab-pane fade" id="step2" role="tabpanel" aria-labelledby="step2-tab">
+                <div>
+                    <label for="study-time">Chọn thời gian học mà bạn muốn học:</label>
+                    <div>
+                        <div class="custom-control custom-checkbox custom-control-inline">
+                            <input class="custom-control-input" name="study-time-choose" type="checkbox" value="1"
+                                id="mor1">
+                            <label class="custom-control-label" for="mor1">Tiết 1 (06:45 - 07:30)</label>
+                        </div>
+                        <div class="custom-control custom-checkbox custom-control-inline">
+                            <input class="custom-control-input" name="study-time-choose" type="checkbox" value="2"
+                                id="mor2">
+                            <label class="custom-control-label" for="mor2">Tiết 2 (07:30 - 08:15)</label>
+                        </div>
+                        <div class="custom-control custom-checkbox custom-control-inline">
+                            <input class="custom-control-input" name="study-time-choose" type="checkbox" value="3"
+                                id="mor3">
+                            <label class="custom-control-label" for="mor3">Tiết 3 (08:25 - 09:10)</label>
+                        </div>
+                        <div class="custom-control custom-checkbox custom-control-inline">
+                            <input class="custom-control-input" name="study-time-choose" type="checkbox" value="4"
+                                id="mor4">
+                            <label class="custom-control-label" for="mor4">Tiết 4 (09:20 - 10:05)</label>
+                        </div>
+                        <div class="custom-control custom-checkbox custom-control-inline">
+                            <input class="custom-control-input" name="study-time-choose" type="checkbox" value="5"
+                                id="mor5">
+                            <label class="custom-control-label" for="mor5">Tiết 5 (10:15 - 11:00)</label>
+                        </div>
+                        <div class="custom-control custom-checkbox custom-control-inline">
+                            <input class="custom-control-input" name="study-time-choose" type="checkbox" value="6"
+                                id="mor6">
+                            <label class="custom-control-label" for="mor6">Tiết 6 (11:00 - 11:45)</label>
+                        </div>
+                        <div class="custom-control custom-checkbox custom-control-inline">
+                            <input class="custom-control-input" name="study-time-choose" type="checkbox" value="7"
+                                id="aft7">
+                            <label class="custom-control-label" for="aft7">Tiết 7 (12:30 - 13:15)</label>
+                        </div>
+                        <div class="custom-control custom-checkbox custom-control-inline">
+                            <input class="custom-control-input" name="study-time-choose" type="checkbox" value="8"
+                                id="aft8">
+                            <label class="custom-control-label" for="aft8">Tiết 8 (13:15 - 14:00)</label>
+                        </div>
+                        <div class="custom-control custom-checkbox custom-control-inline">
+                            <input class="custom-control-input" name="study-time-choose" type="checkbox" value="9"
+                                id="aft9">
+                            <label class="custom-control-label" for="aft9">Tiết 9 (14:10 - 14:55)</label>
+                        </div>
+                        <div class="custom-control custom-checkbox custom-control-inline">
+                            <input class="custom-control-input" name="study-time-choose" type="checkbox" value="10"
+                                id="aft10">
+                            <label class="custom-control-label" for="aft10">Tiết 10 (15:05 - 15:50)</label>
+                        </div>
+                        <div class="custom-control custom-checkbox custom-control-inline">
+                            <input class="custom-control-input" name="study-time-choose" type="checkbox" value="11"
+                                id="aft11">
+                            <label class="custom-control-label" for="aft11">Tiết 11 (16:00 - 16:45)</label>
+                        </div>
+                        <div class="custom-control custom-checkbox custom-control-inline">
+                            <input class="custom-control-input" name="study-time-choose" type="checkbox" value="12"
+                                id="aft12">
+                            <label class="custom-control-label" for="aft12">Tiết 12 (16:45 - 17:30)</label>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div>
+                    <label for="study-day">Chọn ngày học mà bạn muốn học:</label>
+                    <div>
+                        <div class="custom-control custom-checkbox custom-control-inline">
+                            <input class="custom-control-input" name="study-day-choose" type="checkbox" value="2"
+                                id="mon">
+                            <label class="custom-control-label" for="mon">Thứ 2</label>
+                        </div>
+                        <div class="custom-control custom-checkbox custom-control-inline">
+                            <input class="custom-control-input" name="study-day-choose" type="checkbox" value="3"
+                                id="tue">
+                            <label class="custom-control-label" for="tue">Thứ 3</label>
+                        </div>
+                        <div class="custom-control custom-checkbox custom-control-inline">
+                            <input class="custom-control-input" name="study-day-choose" type="checkbox" value="4"
+                                id="wed">
+                            <label class="custom-control-label" for="wed">Thứ 4</label>
+                        </div>
+                        <div class="custom-control custom-checkbox custom-control-inline">
+                            <input class="custom-control-input" name="study-day-choose" type="checkbox" value="5"
+                                id="thu">
+                            <label class="custom-control-label" for="thu">Thứ 5</label>
+                        </div>
+                        <div class="custom-control custom-checkbox custom-control-inline">
+                            <input class="custom-control-input" name="study-day-choose" type="checkbox" value="6"
+                                id="fri">
+                            <label class="custom-control-label" for="fri">Thứ 6</label>
+                        </div>
+                        <div class="custom-control custom-checkbox custom-control-inline">
+                            <input class="custom-control-input" name="study-day-choose" type="checkbox" value="7"
+                                id="sat">
+                            <label class="custom-control-label" for="sat">Thứ 7</label>
+                        </div>
+                        <div class="custom-control custom-checkbox custom-control-inline">
+                            <input class="custom-control-input" name="study-day-choose" type="checkbox" value="8"
+                                id="sun">
+                            <label class="custom-control-label" for="sun">Chủ nhật</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Get course code tab -->
+            <div class="tab-pane fade" id="step3" role="tabpanel" aria-labelledby="step3-tab">
+                Nhập mã học phần đăng ký (các mã học phần cách nhau bởi dấu |):
+                <textarea class="form-control" rows="3" id="hp_content" placeholder="MI1131|PH1120"></textarea>
+            </div>
+            <!-- Get result tab -->
+            <div class="tab-pane fade" id="step4" role="tabpanel" aria-labelledby="step4-tab">
+                <ul>
+                    <li>Đầu tiên, hệ thống sẽ in ra list các mã lớp chứa các ngành bạn đăng ký.</li>
+                    <li>Sau đó, từ những list mã lớp, hệ thống sẽ đưa ra lịch học thích hợp nhất cho bạn.</li>
+                    <li>Nếu không thể có lịch học, hệ thống sẽ đưa ra thông báo lỗi.</li>
+                </ul>
+                <button class="btn btn-danger" onclick="runAll()">Chạy thử</button>
+                <div id="result1" class="table">
+                    <span id="table_content"></span>
+                </div>
+            </div>
+        </div>
+        <!-- End of nav tabs content -->
+    </div>
+    <!-- End of nav tabs -->
+
+    <!-- A random modal -->
+    <div class="modal" id="modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Modal title</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <span id="modal-content"></span>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <!-- Begin of Javascript Code -->
+    <!-- Initialization variables zone-->
+    <script>
+        var returnDatabase = new Array();
+        var chooseData = new Array();
+    </script>
+    <!-- Import all js files -->
+        <!-- Convert Data from JSON to returnDatabase -->
+        <script type="module" src="getJSONdata.js"></script>
+        <!-- Convert some input / data into easier accessible data -->
+        <script type="text/javascript" src="operateInput.js"></script>
+        <!-- Show Data after filtering -->
+        <script type="text/javascript" src="filterData.js"></script>
+        <!-- Check all combination and choose which one is better for you -->
+        <script type="text/javascript" src="checkCombination.js"></script>
+        <!-- Show all course -->
+        <script type="text/javascript" src="runDatabase.js"></script>
+</body>
+</html>
