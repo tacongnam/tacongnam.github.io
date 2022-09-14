@@ -52,6 +52,11 @@
         }
         .check-status button:hover {
             background-color: green;
+            cursor: pointer;
+        }
+        .check-status button:disabled {
+            background-color: gray;
+            cursor: not-allowed;
         }
         .course-part {
             font-style: italic;
@@ -136,8 +141,8 @@
         </div>
         <div class="check-status">
             <div class="part-instruction">Trả lời đúng [?1]</div>
-            <button>Kiểm tra</button>
-            <div class="course-part">Chính xác</div>
+            <button onclick="checkPart(1,0,6)">Kiểm tra</button>
+            <div class="course-part"></div>
         </div>
         <div class="instruction-part">
             <header>Chép các từ sau vào vở. Ghi nhớ những từ này:</header>
@@ -187,8 +192,8 @@
         </div>
         <div class="check-status">
             <div class="part-instruction">Trả lời đúng [?2]</div>
-            <button>Kiểm tra</button>
-            <div class="course-part">Chính xác</div>
+            <button onclick="checkPart(2,7,12)">Kiểm tra</button>
+            <div class="course-part"></div>
         </div>
 	    <div class="instruction-part">
             <header>Days of the week</header>
@@ -211,8 +216,8 @@
         </div>
         <div class="check-status">
             <div class="part-instruction">Trả lời đúng [?3]</div>
-            <button>Kiểm tra</button>
-            <div class="course-part">Chính xác</div>
+            <button onclick="checkPart(3,13,19)">Kiểm tra</button>
+            <div class="course-part"></div>
         </div>
         <div class="question">
             <div class="question-title">[?4] Trò chơi: Điền lịch. Cho bảng lịch một tháng như sau:
@@ -302,21 +307,63 @@
         </div>
         <div class="check-status">
             <div class="part-instruction">Trả lời đúng [?4]</div>
-            <button>Kiểm tra</button>
-            <div class="course-part">Chính xác</div>
+            <button onclick="checkPart(4,20,29)">Kiểm tra</button>
+            <div class="course-part"></div>
         </div>
     </div>
     <div id="right-panel">
         <div id="clock">
             <b>Thời gian còn lại:</b>
-            <div id="count_down">10:15</div>
-            <button>Kết thúc bài học</button>
+            <div id="count_down">45:00</div>
+            <button id="start_course" onclick="startTimer()">Bắt đầu học</button>
             <div style="margin-top: 20px; color: red">Sau 15' hãy nghỉ ngơi mắt 15s bằng cách dừng nhìn máy tính để không mỏi mắt!</div>
         </div>
         <div id="mark">
             <b>Điểm của bạn:</b>
-            <div id="user_mark"><span id="user_points"></span>0 / 100</div>
+            <div id="user_mark"><span id="user_points">0</span> / 100</div>
         </div>
     </div>
 </body>
+<script>
+var timer = 2700, countDown;
+for(var i = 0; i < document.getElementsByTagName("button").length - 1; i++)
+            document.getElementsByTagName("button")[i].disabled = true;
+function startTimer() {
+    if(timer < 2700) {
+        document.getElementById("start_course").innerText = "Đã kết thúc bài học";
+        clearInterval(countDown);
+        for(var i = 0; i < document.getElementsByTagName("button").length - 1; i++)
+            document.getElementsByTagName("button")[i].disabled = true;
+    } else {
+        timer = 2700;
+        for(var i = 0; i < document.getElementsByTagName("button").length - 1; i++)
+            document.getElementsByTagName("button")[i].disabled = false;
+        document.getElementById("start_course").innerText = "Kết thúc bài học";
+        countDown = setInterval(function() {
+            timer--;
+            document.getElementById("count_down").innerText = Math.floor(timer/60) + ":" + (timer - Math.floor(timer/60)*60);
+        }, 1000);
+    }
+}
+
+var answer = ['six','fifteen','thirty-seven','fourty-five','sixty-three','eighty-two','ninety-nine','thirteenth','eighteenth','thirty-fifth','fourty-seventh','eighty-second','ninety-third','monday','thursday','saturday','tuesday','friday','sunday','wednesday','tuesday','twentieth','friday','thirtieth','friday','two','wednesday','twenty-one','wednesday','seven'];
+var points = [20,25,25,30];
+var user_points = 0;
+var countCorrect = 0;
+function checkPart(id, startId, endId) {
+    countCorrect = 0;
+    for(var i = startId; i <= endId; i++)
+        if(document.getElementsByName("user_input")[i].value === answer[i])
+            countCorrect++;
+    if(countCorrect == endId - startId + 1) {
+        user_points += points[id - 1];
+        document.getElementById("user_points").innerText = user_points;
+        document.getElementsByClassName("course-part")[id - 1].innerText = "Chính xác!";
+        document.getElementsByTagName("button")[id - 1].disabled = true;
+        document.getElementsByTagName("button")[id - 1].style.backgroundColor = green;
+    } else {
+        document.getElementsByClassName("course-part")[id - 1].innerText = "Trả lời sai. Hãy kiểm tra lại kết quả.";
+    }
+}
+</script>
 </html>
