@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin-top: 50px;
+        }
+        #left-panel {
+            width: 80%;
+            height: 85vh;
+            text-align: justify;
+            overflow: scroll;
+            margin-right: 2%;
+            padding-left: 40px;
+            line-height: 1.5;
+        }
+        #right-panel {
+            background-color: white;
+            right: 10px;
+            width: 16%;
+            top: 50px;
+            position: fixed;
+            text-align: center;
+        }
+        .question {
+            border: 1px solid black;
+            border-radius: 10px;
+            padding: 10px 30px;
+        }
+        .question-note {
+            font-style: italic;
+        }
+        .check-status {
+            margin: 10px 15px;
+            background-color: aliceblue;
+            padding: 10px 45px;
+            line-height: 2;
+        }
+        .check-status button {
+            border-radius: 10px;
+            height: 40px;
+            width: 10%;
+            background-color: blue;
+            color: white;
+            font-size: 16px;
+        }
+        .check-status button:hover {
+            background-color: green;
+        }
+        .course-part {
+            font-style: italic;
+        }
+        .instruction-part {
+            margin-top: 40px;
+        }
+        .instruction-part header {
+            font-weight: bold;
+        }
+        input {
+            border-radius: 5px;
+            padding: 5px 10px;
+            margin: 5px;
+            font-size: 100%;
+        }
+        table, tr, th, td {
+            border:1px solid black;    
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 4px;
+        }
+        #count_down, #user_mark {
+            text-align: center;
+            font-size: 200%;
+            border: 1px solid black;
+            margin: 15px 10px;
+            padding: 10px 15px;
+        }
+        #mark {
+            margin-top: 50px;
+        }
+        #clock button {
+            background-color: transparent;
+            color: black;
+            height: 40px;
+        }
+        #clock button:hover {
+            background-color: red;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div id="left-panel">
+        <h2 id="course-infos">
+            Week 1: Some important words to know<br>
+            Lesson 1: Vocabulary, Grammar, Reading<br>
+            I. Vocabulary
+        </h2>
+        <hr>
+        <div class="prepare-part">
+            <b>Trước khi nhấn bắt đầu học, hãy chuẩn bị:</b>
+            <ul>
+                <li>Giấy, bút để học hiệu quả.</li>
+                <li>Dọn dẹp bàn học rộng rãi, thoáng mát.</li>
+                <li>Thời gian của bài học này là 45 phút. <b>Sau 15' hãy nghỉ ngơi mắt 15s bằng cách dừng nhìn máy tính để không mỏi mắt!</b></li>
+            </ul>
+            Sau khi đã chuẩn bị xong, hãy nhấn "Bắt đầu học"
+        </div>
+        <hr>
+        <div class="instruction-part">
+            <header>Số lượng và số thứ tự</header>
+            <ul>
+                <li>cardinal number (n) /ˈkɑr·dən·əl ˈnʌm·bər/: bảng số (thể hiện số lượng)</li>
+                <li>ordinal number (n) /ˈɔr·dən·əl ˈnʌm·bər/: bảng số (thể hiện thứ tự)</li>
+            </ul>
+        </div>
+        <div class="question">
+            <div class="question-title">[?1] Đọc và viết các số sau trong tiếng Anh vào nháp: 6, 15, 37, 45, 63, 82, 99.</div>
+            <ul>
+                <li>Số 6: <input type="text" name="user_input" placeholder=""></li>
+                <li>Số 15: <input type="text" name="user_input" placeholder=""></li>
+                <li>Số 37: <input type="text" name="user_input" placeholder=""></li>
+                <li>Số 45: <input type="text" name="user_input" placeholder=""></li>
+                <li>Số 63: <input type="text" name="user_input" placeholder=""></li>
+                <li>Số 82: <input type="text" name="user_input" placeholder=""></li>
+                <li>Số 99: <input type="text" name="user_input" placeholder=""></li>
+            </ul>
+            <div class="question-note">Viết thường các đáp án</div>
+        </div>
+        <div class="check-status">
+            <div class="part-instruction">Trả lời đúng [?1]</div>
+            <button>Kiểm tra</button>
+            <div class="course-part">Chính xác</div>
+        </div>
+        <div class="instruction-part">
+            <header>Chép các từ sau vào vở. Ghi nhớ những từ này:</header>
+            <ul>
+                <li>eleven (number) /əˈlev.ən/: số 11</li>
+                <li>twelve (number) /twelv/: số 12</li>
+                <li>twenty (number) /ˈtwen.t̬i/: số 20</li>
+                <li>(one) hundred (number) /ˈhʌn.drəd/: số 100</li>
+                <hr>
+                <li>first (o. num.) /ˈfɝːst/: thứ nhất</li>
+                <li>second (o. num.) /ˈsek.ənd/: thứ hai</li>
+                <li>third (o. num.) /θɝːd/: thứ ba</li>
+                <li>fourth (o. num.) /fɔːrθ/: thứ tư</li>
+                <li>fifth (o. num.) /fɪfθ/: thứ năm</li>
+                <li>sixth (o. num.) /sɪksθ/: thứ sáu</li>
+                <li>seventh (o. num.) /ˈsev.ənθ/: thứ bảy</li>
+                <li>eighth (o. num.) /eɪtθ/: thứ tám</li>
+                <li>ninth (o. num.) /naɪnθ/: thứ chín</li>
+                <li>tenth (o. num.) /tenθ/: thứ mười</li>
+                <hr>
+                <li>twelfth (o. num.) /twelfθ/: thứ mười hai</li>
+                <li>twentieth (o. num.) /ˈtwen.t̬i.əθ/: thứ hai mươi</li>
+                <li>thirtieth (o. num.) /ˈθɝː.t̬i.əθ/: thứ ba mươi</li>
+                <li>fortieth (o. num.) /ˈfɔːr.t̬i.əθ/: thứ bốn mươi</li>
+                <li>fiftieth (o. num.) : thứ năm mươi</li>
+                <li>sixtieth (o. num.) : thứ sáu mươi</li>
+                <li>seventieth (o. num.) : thứ bảy mươi</li>
+                <li>eightieth (o. num.) : thứ tám mươi</li>
+                <li>ninetieth (o. num.) : thứ chín mươi</li>
+                <li>hundredth (o. num.) : thứ một trăm</li>
+            </ul>
+        </div>
+	    <div class="question">
+            <div class="question-title">[?2] Biết rằng:<br>
+                - Các số nhỏ hơn 20 mà không có trong bảng này: số (số lượng) + thêm ‘th’ ở cuối.<br>
+                - Các số lớn hơn 20 được tạo theo quy tắc như bảng số số lượng: 23: twenty-third, 59: fifty-ninth.<br>
+                Hãy đọc và viết các số sau vào vở nháp: 13, 18, 35, 47, 82, 93.</div>
+            <ul>
+                <li>Số 13: <input type="text" name="user_input" placeholder=""></li>
+                <li>Số 18: <input type="text" name="user_input" placeholder=""></li>
+                <li>Số 35: <input type="text" name="user_input" placeholder=""></li>
+                <li>Số 47: <input type="text" name="user_input" placeholder=""></li>
+                <li>Số 82: <input type="text" name="user_input" placeholder=""></li>
+                <li>Số 93: <input type="text" name="user_input" placeholder=""></li>
+            </ul>
+            <div class="question-note">Viết thường các đáp án, giữa các từ và dấu - không có dấu cách. Ví dụ: fifty-ninth</div>
+        </div>
+        <div class="check-status">
+            <div class="part-instruction">Trả lời đúng [?2]</div>
+            <button>Kiểm tra</button>
+            <div class="course-part">Chính xác</div>
+        </div>
+	    <div class="instruction-part">
+            <header>Days of the week</header>
+            <ul>
+                <li>days of the week (n): các ngày trong tuần</li>
+            </ul>
+        </div>
+        <div class="question">
+            <div class="question-title">[?3] Đọc và viết tên các ngày trong tuần vào vở nháp.</div>
+            <ul>
+                <li>Thứ 2: <input type="text" name="user_input" placeholder=""></li>
+                <li>Thứ 5: <input type="text" name="user_input" placeholder=""></li>
+                <li>Thứ 7: <input type="text" name="user_input" placeholder=""></li>
+                <li>Thứ 3: <input type="text" name="user_input" placeholder=""></li>
+                <li>Thứ 6: <input type="text" name="user_input" placeholder=""></li>
+                <li>Chủ nhật: <input type="text" name="user_input" placeholder=""></li>
+                <li>Thứ 4: <input type="text" name="user_input" placeholder=""></li>
+            </ul>
+            <div class="question-note">Viết thường các đáp án</div>
+        </div>
+        <div class="check-status">
+            <div class="part-instruction">Trả lời đúng [?3]</div>
+            <button>Kiểm tra</button>
+            <div class="course-part">Chính xác</div>
+        </div>
+        <div class="question">
+            <div class="question-title">[?4] Trò chơi: Điền lịch. Cho bảng lịch một tháng như sau:
+                Giả sử ngày 8 là thứ năm. Hãy điền vào bảng dưới. Ba ô cuối hãy chọn 1 ngày bất kỳ và điền vào bảng.</div>
+            <table>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6</td>
+                    <td>7</td>
+                    <td>8</td>
+                    <td>9</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>11</td>
+                    <td>12</td>
+                    <td>13</td>
+                    <td>14</td>
+                    <td>15</td>
+                    <td>16</td>
+                    <td>17</td>
+                </tr>
+                <tr>
+                    <td>18</td>
+                    <td>19</td>
+                    <td>20</td>
+                    <td>21</td>
+                    <td>22</td>
+                    <td>23</td>
+                    <td>24</td>
+                </tr>
+                <tr>
+                    <td>25</td>
+                    <td>26</td>
+                    <td>27</td>
+                    <td>28</td>
+                    <td>29</td>
+                    <td>30</td>
+                    <td>31</td>
+                </tr>
+            </table>
+            <ul>
+                <table>
+                    <tr>
+                        <th>days of the week</th>
+                        <th>cardinal number</th>
+                        <th>ordinal number</th>
+                    </tr>
+                    <tr>
+                        <td><input type="text" name="user_input" placeholder=""></td>
+                        <td>twenty</td>
+                        <td><input type="text" name="user_input" placeholder=""></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" name="user_input" placeholder=""></td>
+                        <td>thirty</td>
+                        <td><input type="text" name="user_input" placeholder=""></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" name="user_input" placeholder=""></td>
+                        <td><input type="text" name="user_input" placeholder=""></td>
+                        <td>second</td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" name="user_input" placeholder=""></td>
+                        <td><input type="text" name="user_input" placeholder=""></td>
+                        <td>twenty-first</td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" name="user_input" placeholder=""></td>
+                        <td><input type="text" name="user_input" placeholder=""></td>
+                        <td>seventh</td>
+                    </tr>
+                </table>
+            </ul>
+            <div class="question-note">Viết thường các đáp án, giữa các từ và dấu - không có dấu cách. Ví dụ: fifty-ninth</div>
+        </div>
+        <div class="check-status">
+            <div class="part-instruction">Trả lời đúng [?4]</div>
+            <button>Kiểm tra</button>
+            <div class="course-part">Chính xác</div>
+        </div>
+    </div>
+    <div id="right-panel">
+        <div id="clock">
+            <b>Thời gian còn lại:</b>
+            <div id="count_down">10:15</div>
+            <button>Kết thúc bài học</button>
+            <div style="margin-top: 20px; color: red">Sau 15' hãy nghỉ ngơi mắt 15s bằng cách dừng nhìn máy tính để không mỏi mắt!</div>
+        </div>
+        <div id="mark">
+            <b>Điểm của bạn:</b>
+            <div id="user_mark"><span id="user_points"></span>0 / 100</div>
+        </div>
+    </div>
+</body>
+</html>
