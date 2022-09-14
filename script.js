@@ -1,5 +1,5 @@
 // Thay đổi thời gian học (theo giây)
-var total_timer = 300;
+var total_timer = 5400;
 // Thay đổi thời gian học (theo giây)
 
 var timer = total_timer, countDown;
