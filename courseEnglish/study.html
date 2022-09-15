@@ -1,0 +1,138 @@
+<!-- FIXXED CODE, DON'T CHANGE ANYTHING IN HERE !!! -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="firstLoad()">
+    <div id="right-panel">
+        <div id="clock">
+            <b>Thời gian còn lại:</b>
+            <div id="count_down">0</div>
+            <button id="start_course" onclick="startTimer(0)" disabled>Bắt đầu học</button>
+            <button id="pause_course" onclick="startTimer(2)" disabled>Tạm dừng học</button>
+        </div>
+        <div style="margin-top: 10px; color: red">Sau 15' hãy nghỉ ngơi mắt 15s bằng cách dừng nhìn máy tính để
+            không mỏi mắt!</div>
+        <p id="low-width-device">Nên sử dụng trang web trên máy tính. Sử dụng trên điện thoại sẽ không có trải nghiệm
+            tốt nhất.</p>
+        <p id="status-noti"></p>
+        <input type="file" id="myFile1" multiple size="50">
+        <div id="mark">
+            <b>Điểm của bạn:</b>
+            <div id="user_mark"><span id="user_points">0</span></div>
+        </div>
+    </div>
+    <div id="left-panel">
+        <h2 id="course-infos">
+
+            <!-- Thay đổi tiêu đề bài -->
+            <div id="week-name">
+
+            </div>
+            <div id="course-name">
+
+            </div>
+            <!-- Thay đổi tiêu đề bài -->
+        </h2>
+
+        <div class="tab">
+            <button class="tablinks" onclick="openCity(event, 'Introduction')" active>Hướng dẫn</button>
+            <button class="tablinks" onclick="openCity(event, 'Vocabulary')">Vocabulary</button>
+            <button class="tablinks" onclick="openCity(event, 'Grammar')">Grammar</button>
+            <button class="tablinks" onclick="openCity(event, 'Reading')">Reading</button>
+            <button class="tablinks" onclick="openCity(event, 'Listening')">Listening</button>
+            <button class="tablinks" onclick="openCity(event, 'Speaking')">Speaking</button>
+        </div>
+
+        <div id="Introduction" class="tabcontent">
+
+            <!-- Thay đổi nội dung chuẩn bị -->
+            <b>Trước khi nhấn bắt đầu học, hãy chuẩn bị:</b>
+            <div id="preparation-code">
+                Tại cột bên phải, chọn Choose Files rồi chọn file json tương ứng với bài học.<br>
+                Nếu trang web không hiển thị đúng, tải lại trang web rồi chọn lại file.
+            </div>
+            Sau khi đã chuẩn bị xong, hãy nhấn "Bắt đầu học"
+            <div style="text-align: center">
+                <button id="start_course_intro" onclick="startTimer(1)" disabled>Bắt đầu học</button>
+            </div>
+            <!-- Thay đổi nội dung chuẩn bị -->
+
+        </div>
+        <div id="Vocabulary" class="tabcontent">
+
+
+            <!-- Thay đổi nội dung phần Vocabulary -->
+            <!-- Thay đổi nội dung phần Vocabulary -->
+
+
+        </div>
+        <div id="Grammar" class="tabcontent">
+
+
+            <!-- Thay đổi nội dung phần Grammar -->
+            <!-- Thay đổi nội dung phần Grammar -->
+
+
+        </div>
+        <div id="Listening" class="tabcontent">
+
+
+            <!-- Thay đổi nội dung phần Listening -->
+            Lesson này không bao gồm Listening
+            <!-- Thay đổi nội dung phần Listening -->
+
+
+        </div>
+        <div id="Reading" class="tabcontent">
+
+
+            <!-- Thay đổi nội dung phần Reading -->
+            <!-- Thay đổi nội dung phần Reading -->
+
+
+        </div>
+        <div id="Speaking" class="tabcontent">
+
+
+            <!-- Thay đổi nội dung phần Speaking -->
+            Lesson này không bao gồm Speaking
+            <!-- Thay đổi nội dung phần Speaking -->
+
+
+        </div>
+        <div>Nếu gặp lỗi, nhấn F5 để tải lại trang. Chú ý: <span style="color: red;font-weight: bold">Tải lại trang sẽ làm mất toàn bộ dữ liệu đã nhập</span></div>
+    </div>
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close" onclick="startTimer(2)">&times;</span>
+            <p>Hệ thống tự động tạm dừng học. Nhấn x để tiếp tục.</p>
+        </div>
+
+    </div>
+    <script>
+        var returnDatabase = new Array();
+        // Thay đổi thời gian học (theo giây)
+        var total_timer = 0, auto_stop = 900, timer = 0;
+        // Thay đổi kết quả và điểm của từng phần
+        var answer = [];
+        var points = [];
+        var startPart = [];
+        var endPart = [];
+        var max_score = 0, pass_score = 100;
+    </script>
+    <script type="text/javascript" src="getStudyJSONFile.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,255 @@
+        body {
+            display: block;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin-top: 20px;
+        }
+
+        #left-panel {
+            height: 90vh;
+            text-align: justify;
+            overflow: scroll;
+            margin-right: 2%;
+            padding-left: 30px;
+            padding-right: 20px;
+            line-height: 1.5;
+        }
+
+        #right-panel {
+            background-color: white;
+            border: 2px solid black;
+            border-radius: 10px;
+            margin: 10px 40px;
+            text-align: center;
+            top: 10px;
+        }
+
+        @media (min-width: 850px) {
+            body {
+                display: flex;
+            }
+
+            #left-panel {
+                margin-top: 0px;
+                width: 80%;
+            }
+
+            #right-panel {
+                position: fixed;
+                border: none !important;
+                top: 50px;
+                width: max(16%, 40px);
+                right: 10px;
+                margin: 0px;
+            }
+
+            .check-status button {
+                width: 20% !important;
+            }
+
+            #count_down,
+            #user_mark {
+                text-align: center;
+                font-size: 200%;
+                border: 1px solid black;
+                margin: 15px 10px;
+                padding: 10px 15px;
+            }
+
+
+            #mark {
+                margin-top: 20px;
+            }
+
+            #low-width-device {
+                display: none !important;
+            }
+        }
+
+        #low-width-device {
+            display: inline;
+            margin-top: 10px;
+        }
+
+        .question {
+            border: 1px solid black;
+            border-radius: 10px;
+            padding: 10px 30px;
+        }
+
+        .question-note {
+            font-style: italic;
+        }
+
+        .check-status {
+            margin: 10px 15px;
+            background-color: aliceblue;
+            padding: 10px 45px;
+            line-height: 2;
+        }
+
+        .check-status button {
+            border-radius: 10px;
+            height: 40px;
+            width: 40%;
+            background-color: blue;
+            color: white;
+            font-size: 16px;
+        }
+
+        .check-status button:hover {
+            background-color: green;
+            cursor: pointer;
+        }
+
+        .check-status button:disabled {
+            background-color: gray;
+            cursor: not-allowed;
+        }
+
+        .course-part {
+            font-style: italic;
+        }
+
+        .instruction-part {
+            margin-top: 40px;
+        }
+
+        .instruction-part header {
+            font-weight: bold;
+            font-size: 110%;
+        }
+
+        input {
+            border-radius: 5px;
+            padding: 5px 10px;
+            margin: 5px;
+            font-size: 100%;
+        }
+
+        input:disabled {
+            cursor: not-allowed;
+        }
+
+        table,
+        tr,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            padding: 4px;
+        }
+
+        #count_down,
+        #user_mark {
+            text-align: center;
+            border: 1px solid black;
+            font-weight: bold;
+            margin: 5px 5px;
+            padding: 5px 5px;
+        }
+
+        #clock button, #start_course_intro {
+            background-color: transparent;
+            color: black;
+            height: 40px;
+        }
+
+        #clock button:hover, #start_course_intro:hover {
+            background-color: red;
+            color: white;
+        }
+
+        /* The Modal (background) */
+        .modal {
+            display: none;
+            /* Hidden by default */
+            position: fixed;
+            /* Stay in place */
+            z-index: 1;
+            /* Sit on top */
+            padding-top: 100px;
+            /* Location of the box */
+            left: 0;
+            top: 0;
+            width: 100%;
+            /* Full width */
+            height: 100%;
+            /* Full height */
+            overflow: auto;
+            /* Enable scroll if needed */
+            background-color: rgb(0, 0, 0);
+            /* Fallback color */
+            background-color: rgba(0, 0, 0, 0.4);
+            /* Black w/ opacity */
+        }
+
+        /* Modal Content */
+        .modal-content {
+            background-color: #fefefe;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #888;
+            width: 80%;
+        }
+
+        /* The Close Button */
+        .close {
+            color: #aaaaaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .close:hover,
+        .close:focus {
+            color: #000;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        #pause_course {
+            display: none;
+        }
+
+        /* Style the tab */
+        .tab {
+            overflow: hidden;
+            border: 1px solid #ccc;
+            background-color: #f1f1f1;
+            margin-top: 10px;
+        }
+
+        /* Style the buttons inside the tab */
+        .tab button {
+            background-color: inherit;
+            float: left;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            padding: 14px 16px;
+            transition: 0.3s;
+            font-size: 17px;
+        }
+
+        /* Change background color of buttons on hover */
+        .tab button:hover {
+            background-color: #ddd;
+        }
+
+        /* Create an active/current tablink class */
+        .tab button.active {
+            background-color: #ccc;
+            text-decoration: underline;
+        }
+
+        /* Style the tab content */
+        .tabcontent {
+            display: none;
+            padding: 6px 12px;
+            border: 1px solid #ccc;
+            border-top: none;
+        }

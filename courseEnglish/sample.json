@@ -1,0 +1,37 @@
+[
+    {
+        "week_name": "Week 1 - Some important words to know:",
+        "course_name": "Lesson 1: Vocabulary, Grammar, Reading",
+        "course_time": 240,
+        "auto_stop": 120,
+        "pass_score": 100,
+        "preparation_code": "<ul><li>Giấy, bút để học hiệu quả.</li><li>Dọn dẹp bàn học rộng rãi, thoáng mát.</li><li>Thời gian của bài học này là 90 phút. <b>Cứ mỗi 15' thì bài thi sẽ tạm dừng. Hãy đứng dậy không nhìn máy tính để đỡ mỏi mắt!</b></li><li>Hướng dẫn: Chuyển qua các phần khác (listening, reading,...) bằng cách nhấn vào phần đó trong ô phía trên.</li><li>Nếu bấm kiểm tra không chạy thì đợi khoảng 5s rồi bấm lại.</li><li>Không nhấn F5 trong khi đang học vì sẽ bị mất hết dữ liệu. Khi làm xong bài nào nhớ bấm 'Kiểm tra' hoặc 'Hoàn thành' để kiểm tra cũng như lưu lại điểm. Khi hết giờ, hệ thống cũng sẽ chấm lại toàn bộ các bài, kể cả các bài đang làm nhưng chưa bấm 'Hoàn thành' hay 'Kiểm tra'.</li></ul>",
+        "course_vocab_code": [
+            {
+                "header": "Số lượng và số thứ tự",
+                "instruction": "<ul><li>cardinal number (n) /ˈkɑr·dən·əl ˈnʌm·bər/: bảng số (thể hiện số lượng)</li><li>ordinal number (n) /ˈɔr·dən·əl ˈnʌm·bər/: bảng số (thể hiện thứ tự)</li></ul>",
+                "question_content": "[?1] Đọc và viết các số sau trong tiếng Anh vào nháp: 6, 15, 37, 45, 63, 82, 99.",
+                "answer_content": "<ul><li>Số 6: <input type='text' name='user_input' placeholder=''></li><li>Số 15: <input type='text' name='user_input' placeholder=''></li><li>Số 37: <input type='text' name='user_input' placeholder=''></li><li>Số 45: <input type='text' name='user_input' placeholder=''></li><li>Số 63: <input type='text' name='user_input' placeholder=''></li><li>Số 82: <input type='text' name='user_input' placeholder=''></li><li>Số 99: <input type='text' name='user_input' placeholder=''></li></ul>",
+                "button_show": "Kiểm tra",
+                "part_instruction": "Trả lời đúng [?1]",
+                "answer_note": "Viết thường các đáp án",
+                "answer_from": 0,
+                "answer_to": 6,
+                "answer": [
+                    "six",
+                    "fifteen",
+                    "thirty-seven",
+                    "forty-five",
+                    "sixty-three",
+                    "eighty-two",
+                    "ninety-nine"
+                ],
+                "points": 100
+            }
+        ],
+        "course_grammar_code": [],
+        "course_reading_code": [],
+        "course_listening_code": [],
+        "course_speaking_code": []
+    }
+]
