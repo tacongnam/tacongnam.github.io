@@ -45,7 +45,7 @@ function loadCourse() {
         HTMLstring += '<div class="instruction-part"><header>' + getElement.header + '</header>' + getElement.instruction + '</div>'
             + '<div class="question"><div class="question-title">' + getElement.question_content + ' ' + getElement.answer_content +
             '</div><div class="question-note">' + getElement.answer_note + '</div></div><div class="check-status"><div class="part-instruction">'
-            + getElement.part_instruction + '</div><button onclick="checkPart(' + (i + 1) + ')">' + getElement.button_show + '</button><div class="course-part"></div></div>';
+            + getElement.part_instruction + '</div><button onclick="checkPart(' + (startPart.length + 1) + ')">' + getElement.button_show + '</button><div class="course-part"></div></div>';
 
         var answer_array = getElement.answer;
         for (var j = 0; j < answer_array.length; j++)
@@ -65,7 +65,7 @@ function loadCourse() {
         HTMLstring += '<div class="instruction-part"><header>' + getElement.header + '</header>' + getElement.instruction + '</div>'
             + '<div class="question"><div class="question-title">' + getElement.question_content + ' ' + getElement.answer_content +
             '</div><div class="question-note">' + getElement.answer_note + '</div></div><div class="check-status"><div class="part-instruction">'
-            + getElement.part_instruction + '</div><button onclick="checkPart(' + (i + 1) + ')">' + getElement.button_show + '</button><div class="course-part"></div></div>';
+            + getElement.part_instruction + '</div><button onclick="checkPart(' + (startPart.length + 1) + ')">' + getElement.button_show + '</button><div class="course-part"></div></div>';
 
         var answer_array = getElement.answer;
         for (var j = 0; j < answer_array.length; j++)
@@ -86,7 +86,7 @@ function loadCourse() {
         HTMLstring += '<div class="instruction-part"><header>' + getElement.header + '</header>' + getElement.instruction + '</div>'
             + '<div class="question"><div class="question-title">' + getElement.question_content + ' ' + getElement.answer_content +
             '</div><div class="question-note">' + getElement.answer_note + '</div></div><div class="check-status"><div class="part-instruction">'
-            + getElement.part_instruction + '</div><button onclick="checkPart(' + (i + 1) + ')">' + getElement.button_show + '</button><div class="course-part"></div></div>';
+            + getElement.part_instruction + '</div><button onclick="checkPart(' + (startPart.length + 1) + ')">' + getElement.button_show + '</button><div class="course-part"></div></div>';
 
         var answer_array = getElement.answer;
         for (var j = 0; j < answer_array.length; j++)
@@ -107,7 +107,7 @@ function loadCourse() {
         HTMLstring += '<div class="instruction-part"><header>' + getElement.header + '</header>' + getElement.instruction + '</div>'
             + '<div class="question"><div class="question-title">' + getElement.question_content + ' ' + getElement.answer_content +
             '</div><div class="question-note">' + getElement.answer_note + '</div></div><div class="check-status"><div class="part-instruction">'
-            + getElement.part_instruction + '</div><button onclick="checkPart(' + (i + 1) + ')">' + getElement.button_show + '</button><div class="course-part"></div></div>';
+            + getElement.part_instruction + '</div><button onclick="checkPart(' + (startPart.length + 1) + ')">' + getElement.button_show + '</button><div class="course-part"></div></div>';
 
         var answer_array = getElement.answer;
         for (var j = 0; j < answer_array.length; j++)
@@ -128,7 +128,7 @@ function loadCourse() {
         HTMLstring += '<div class="instruction-part"><header>' + getElement.header + '</header>' + getElement.instruction + '</div>'
             + '<div class="question"><div class="question-title">' + getElement.question_content + ' ' + getElement.answer_content +
             '</div><div class="question-note">' + getElement.answer_note + '</div></div><div class="check-status"><div class="part-instruction">'
-            + getElement.part_instruction + '</div><button onclick="checkPart(' + (i + 1) + ')">' + getElement.button_show + '</button><div class="course-part"></div></div>';
+            + getElement.part_instruction + '</div><button onclick="checkPart(' + (startPart.length + 1) + ')">' + getElement.button_show + '</button><div class="course-part"></div></div>';
 
         var answer_array = getElement.answer;
         for (var j = 0; j < answer_array.length; j++)
