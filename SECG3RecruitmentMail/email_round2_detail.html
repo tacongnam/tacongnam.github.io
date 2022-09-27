@@ -52,11 +52,11 @@
         }
     </style>
   </head>
-  <div id="title_banner">
+  <div id='title_banner'>
     <div>
-      <img src="https://scontent.fhan2-5.fna.fbcdn.net/v/t39.30808-6/306606475_640663737583752_7960747428174962295_n.png?_nc_cat=107&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=erJYac4xu88AX9Y0HwX&_nc_ht=scontent.fhan2-5.fna&oh=00_AT9nm9eR1o-SsF6wgLlEBmnMNSgFxpprwKYnx9_HDwQl0A&oe=63370DC6" alt="icon_sec_logo" width="100px" height="100px">
+      <img src='https://scontent.fhan2-5.fna.fbcdn.net/v/t39.30808-6/306606475_640663737583752_7960747428174962295_n.png?_nc_cat=107&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=erJYac4xu88AX9Y0HwX&_nc_ht=scontent.fhan2-5.fna&oh=00_AT9nm9eR1o-SsF6wgLlEBmnMNSgFxpprwKYnx9_HDwQl0A&oe=63370DC6' alt='icon_sec_logo' width='100px' height='100px'>
     </div>
-    <div id="title_div">
+    <div id='title_div'>
       <h3>SOICT English Club</h3>
       <h1>Thông báo kết quả chia team, đề thi và thông tin phỏng vấn</h1>
     </div>
@@ -70,12 +70,13 @@
       <table class='table table-hover' style='width: 90%'>
           <thead>
             <tr>
-                <th colspan="3" class="centerCell">Team số list[i][0][0]</th>
+                <th colspan='4' class='centerCell'>Team số list[i][0][0]</th>
             </tr>
             <tr>
-              <th class="centerCell" style="width: 30%;">Quyền hạn</th>
-              <th class="centerCell" style="width: 30%;">Họ và tên</th>
-              <th class="centerCell">Email</th>
+              <th class='centerCell' style='width: 20%;'>Quyền hạn</th>
+              <th class='centerCell' style='width: 30%;'>Họ và tên</th>
+              <th class='centerCell' style='width: 30%;'>Email</th>
+              <th class='centerCell'>Link Facebook</th>
             </tr>
           </thead>
           <tbody>
@@ -83,31 +84,37 @@
               <td>Mentor</td>
               <td>list[i][1][0]</td>
               <td>list[i][1][1]</td>
+              <td><a href='list[i][1][2]'>Link</a></td>
             </tr>
             <tr>
               <td>Thành viên 1</td>
               <td>list[i][2][0]</td>
               <td>list[i][2][1]</td>
+              <td><a href='list[i][2][2]'>Link</a></td>
             </tr>
             <tr>
               <td>Thành viên 2</td>
               <td>list[i][3][0]</td>
               <td>list[i][3][1]</td>
+              <td><a href='list[i][3][2]'>Link</a></td>
             </tr>
             <tr>
               <td>Thành viên 3</td>
               <td>list[i][4][0]</td>
               <td>list[i][4][1]</td>
+              <td><a href='list[i][4][2]'>Link</a></td>
             </tr>
             <tr>
               <td>Thành viên 4</td>
               <td>list[i][5][0]</td>
               <td>list[i][5][1]</td>
+              <td><a href='list[i][5][2]'>Link</a></td>
             </tr>
             <tr>
               <td>Thành viên 5</td>
               <td>list[i][6][0]</td>
               <td>list[i][6][1]</td>
+              <td><a href='list[i][6][2]'>Link</a></td>
             </tr>
           </tbody>
       </table> 
@@ -131,7 +138,7 @@
       <p><b>Cách thức nộp bài:</b></p>
       <ol>
         <li>Thời gian nộp: Trước 23:59 ngày 4/7/2022.</li>
-        <li>Link nộp: <a href="LINK NỘP BÀI Ở ĐÂY">Tại đây</a>.</li>
+        <li>Link nộp: <a href='LINK NỘP BÀI Ở ĐÂY'>Tại đây</a>.</li>
         <li>File cần nộp: Bản word / excel / google docs / google sheets chứa plan đã đưa ra của team.</li>
       </ol>
       <br>
@@ -139,21 +146,21 @@
       <table class='table table-hover' style='width: 90%'>
           <thead>
             <tr>
-                <th colspan="3" class="centerCell">Team số list[i][0][0]</th>
+                <th colspan='3' class='centerCell'>Team số list[i][0][0]</th>
             </tr>
             <tr>
-              <th class="centerCell" style="width: 40%;">Thông tin</th>
-              <th class="centerCell">Nội dung</th>
+              <th class='centerCell' style='width: 40%;'>Thông tin</th>
+              <th class='centerCell'>Nội dung</th>
             </tr>
           </thead>
           <tbody>
             <tr>
               <td>Ngày phỏng vấn</td>
-              <td style="color: red; font-weight: bold;">interview_list[i][0]</td>
+              <td style='color: red; font-weight: bold;'>interview_list[i][0]</td>
             </tr>
             <tr>
               <td>Kíp phỏng vấn</td>
-              <td style="color: red; font-weight: bold;">interview_list[i][1]</td>
+              <td style='color: red; font-weight: bold;'>interview_list[i][1]</td>
             </tr>
           </tbody>
       </table> 
@@ -171,7 +178,7 @@
       <p><b>Lưu ý quan trọng:</b></p>
       <ol>
         <li>Các thành viên tự liên hệ với nhau (với cả mentor) để thực hiện bài thi teamwork.</li>
-        <li>Điểm vòng 2 bao gồm: Điểm dự án (25%) + Điểm quá trình (30%) + Điểm báo cáo (20%) + Điểm phỏng vấn (25%).</li>
+        <li>Điểm vòng 2 bao gồm: Điểm dự án (20%) + Điểm quá trình (30%) + Điểm báo cáo (15%) + Điểm phỏng vấn (35%).</li>
         <li>Mentor có trách nhiệm: (1) quan sát, đánh giá các thành viên hoạt động và (2) giải đáp một số thắc mắc nhưng dựa trên tinh thần để các thành viên tự phát huy khả năng của bản thân.</li>
       </ol>
       <br>
