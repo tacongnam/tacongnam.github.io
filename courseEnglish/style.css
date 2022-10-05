@@ -1,0 +1,335 @@
+        body {
+            display: block;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin-top: 20px;
+        }
+
+        #left-panel {
+            height: 93vh;
+            text-align: justify;
+            margin-right: 2%;
+            padding-left: 30px;
+            padding-right: 20px;
+            line-height: 1.5;
+        }
+
+        #left-content {
+            overflow: scroll;
+            height: 100%;
+        }
+
+        #right-panel {
+            background-color: white;
+            border: 2px solid black;
+            border-radius: 10px;
+            margin: 0px 40px;
+            text-align: center;
+            top: 20px;
+        }
+
+        @media (min-width: 1000px) {
+            body {
+                display: flex;
+            }
+
+            #left-panel {
+                margin-top: 0px;
+                width: 77%;
+            }
+
+            #right-panel {
+                position: fixed;
+                border: none !important;
+                top: 20px;
+                width: max(20%, 40px);
+                right: 10px;
+                margin: 0px;
+            }
+
+            .check-status button {
+                width: 20% !important;
+            }
+
+            #count_down,
+            #user_mark {
+                text-align: center;
+                font-size: 150%;
+                border: 1px solid black;
+                margin: 10px 10px;
+                padding: 10px 15px;
+            }
+
+
+            #mark {
+                margin-top: 20px;
+            }
+
+            #low-width-device {
+                display: none !important;
+            }
+
+            .tab button {
+                padding: 14px 16px !important;
+                font-size: 17px !important;
+            }
+
+            .tab button:hover {
+                margin-left: 10px;
+            }
+
+            .tab button:disabled {
+                cursor: not-allowed;
+            }
+
+            #clock button,
+            #start_course_intro {
+                height: 40px !important;
+                padding: 10px !important;
+                font-size: 105% !important;
+            }
+        }
+
+        #low-width-device {
+            display: inline;
+            margin-top: 10px;
+        }
+
+        .question {
+            border: 1px solid black;
+            border-radius: 10px;
+            padding: 10px 30px;
+        }
+
+        .question-note {
+            font-style: italic;
+        }
+
+        .check-status {
+            margin: 10px 15px;
+            background-color: aliceblue;
+            padding: 10px 45px;
+            line-height: 2;
+        }
+
+        .check-status button {
+            border-radius: 10px;
+            height: 35px;
+            width: 40%;
+            background-color: blue;
+            color: white;
+            font-size: 16px;
+            transition: 0.3s;
+        }
+
+        .check-status button:hover {
+            background-color: green;
+            cursor: pointer;
+        }
+
+        #course-infos {
+            margin-top: 0;
+        }
+
+        .check-status button:disabled {
+            background-color: gray;
+            cursor: not-allowed;
+        }
+
+        .course-part {
+            font-style: italic;
+        }
+
+        .instruction-part header {
+            font-weight: bold;
+            font-size: 120%;
+        }
+
+        input {
+            border-radius: 5px;
+            padding: 4px 7px;
+            margin: 4px;
+            font-size: 100%;
+        }
+
+        input:disabled {
+            cursor: not-allowed;
+        }
+
+        table,
+        tr,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            padding: 4px;
+        }
+
+        #count_down,
+        #user_mark {
+            text-align: center;
+            border: 1px solid black;
+            font-weight: bold;
+            margin: 5px 5px;
+            padding: 5px 5px;
+        }
+
+        #clock button,
+        #start_course_intro {
+            background-color: transparent;
+            color: black;
+            height: 30px;
+            border-radius: 5px;
+            padding: 5px;
+            transition: 0.3s;
+            font-size: 100%;
+        }
+
+        #clock button:hover,
+        #start_course_intro:hover {
+            background-color: red;
+            color: white;
+        }
+
+        #clock button:disabled,
+        #start_course_intro:disabled {
+            border: 1px solid gray;
+            color: gray;
+            cursor: not-allowed;
+        }
+
+        /* The Modal (background) */
+        .modal {
+            display: none;
+            /* Hidden by default */
+            position: fixed;
+            /* Stay in place */
+            z-index: 1;
+            /* Sit on top */
+            padding-top: 100px;
+            /* Location of the box */
+            left: 0;
+            top: 0;
+            width: 100%;
+            /* Full width */
+            height: 100%;
+            /* Full height */
+            overflow: auto;
+            /* Enable scroll if needed */
+            background-color: rgb(0, 0, 0);
+            /* Fallback color */
+            background-color: rgba(0, 0, 0, 0.4);
+            /* Black w/ opacity */
+        }
+
+        /* Modal Content */
+        .modal-content {
+            background-color: #fefefe;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #888;
+            width: 80%;
+        }
+
+        /* The Close Button */
+        .close {
+            color: #aaaaaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .close:hover,
+        .close:focus {
+            color: #000;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        #pause_course {
+            display: none;
+        }
+
+        /* Style the tab */
+        .tab {
+            border: 1px solid #ccc;
+            background-color: #f1f1f1;
+            margin-top: 10px;
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            height: 55vh;
+            overflow-y: scroll;
+        }
+
+        /* Style the buttons inside the tab */
+        .tab button {
+            background-color: inherit;
+            float: left;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            padding: 8px 10px;
+            transition: 0.3s;
+            font-size: 15px;
+            border-bottom: 1px solid black;
+            text-align: left;
+        }
+
+        /* Change background color of buttons on hover */
+        .tab button:hover {
+            background-color: #ddd;
+        }
+
+        /* Create an active/current tablink class */
+        .tab button.active {
+            background-color: #ccc;
+        }
+
+        /* Style the tab content */
+        .tabcontent {
+            display: none;
+            padding: 6px 12px;
+            border: 1px solid #ccc;
+            border-top: none;
+        }
+
+        /* width */
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+
+        /* Track */
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+
+        /* Handle */
+        ::-webkit-scrollbar-thumb {
+            background: #888;
+        }
+
+        /* Handle on hover */
+        ::-webkit-scrollbar-thumb:hover {
+            background: #555;
+        }
+
+        img:hover {
+            width: 100% !important;
+            height: 100% !important;
+        }
+
+        #goup {
+            border: 1px solid black;
+            font-size: 16px;
+            padding: 10px;
+            transition: 0.3s;
+        }
+
+        #goup:hover {
+            background-color: #ddd;
+            cursor: grabbing;
+        }
