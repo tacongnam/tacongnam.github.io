@@ -1,0 +1,288 @@
+[
+    {
+        "week_name": "Week 3 - Animals:",
+        "course_name": "Lesson 2: More Animals",
+        "course_time": 7200,
+        "auto_stop": 900,
+        "pass_score": 135,
+        "preparation_code": "<ul><li>Giấy, bút để học hiệu quả.</li><li>Dọn dẹp bàn học rộng rãi, thoáng mát.</li><li>Thời gian tối đa của bài học này là 120 phút. <b>Cứ mỗi 15' thì bài thi sẽ tạm dừng. Hãy đứng dậy không nhìn máy tính để đỡ mỏi mắt!</b></li><li>Hướng dẫn: Chuyển qua các phần khác (listening, reading,...) bằng cách nhấn vào phần đó trong ô phía trên.</li><li>Nếu bấm kiểm tra không chạy thì đợi khoảng 5s rồi bấm lại.</li><li>Không nhấn F5 trong khi đang học vì sẽ bị mất hết dữ liệu. Khi làm xong bài nào nhớ bấm 'Kiểm tra' hoặc 'Hoàn thành' để kiểm tra cũng như lưu lại điểm. Khi hết giờ, hệ thống cũng sẽ chấm lại toàn bộ các bài, kể cả các bài đang làm nhưng chưa bấm 'Hoàn thành' hay 'Kiểm tra'.</li></ul>",
+        "parts_code": [
+            "Introduction",
+            "Vocabulary",
+            "GrammarRev",
+            "GrammarNew",
+            "Last"
+        ],
+        "parts_name": [
+            "Hướng dẫn",
+            "Từ vựng: Ôn tập",
+            "Ngữ pháp: Ôn tập",
+            "Grammar: We're / You're / They're",
+            "Phần cuối"
+        ],
+        "course_content": [
+            [
+                {
+                    "header": "Revision: Animals",
+                    "instruction": "",
+                    "question_content": "[?1] Nhìn hình ảnh và nêu tên tiếng Anh của các từ tương ứng.<br>Di chuột vào ảnh để tự động phóng to ảnh. Di ra ngoài để trở về bình thường.",
+                    "answer_content": "<table><tr><td><img src='https://images.unsplash.com/photo-1600804340584-c7db2eacf0bf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cHVwcHl8ZW58MHx8MHx8&w=1000&q=80' width='180px'></td><td><img src='https://cdn.britannica.com/91/181391-050-1DA18304/cat-toes-paw-number-paws-tiger-tabby.jpg' width='180px'></td><td><img src='https://bondleather.com/wp-content/uploads/2020/07/Da-ca-sau-Crocodile-la-gi-Chat-lieu-da-cao-cap-17.jpg' width='180px'></td></tr><tr><td><input type='text' name='user_input' placeholder=''></td><td><input type='text' name='user_input' placeholder=''></td><td><input type='text' name='user_input' placeholder=''></td></tr><tr><td><img src='https://dictionary.cambridge.org/vi/images/thumb/dolphi_noun_002_11224.jpg' width='180px'></td><td><img src='https://animals.sandiegozoo.org/sites/default/files/2016-11/animals_hero_giraffe_1_0.jpg' width='180px'></td><td><img src='https://i.natgeofe.com/n/9d00782c-b410-4e9c-aeb5-564fa290bb82/ostrich_thumb_3x4.JPG' width='180px'></td></tr><tr><td><input type='text' name='user_input' placeholder=''></td><td><input type='text' name='user_input' placeholder=''></td><td><input type='text' name='user_input' placeholder=''></td></tr><tr><td><img src='https://images.twinkl.co.uk/tw1n/image/private/t_630/u/ux/hippo-image_ver_1.jpg' width='180px'></td><td><img src='https://img.texasmonthly.com/2022/05/jellyfish-texas-species.jpg?auto=compress&crop=faces&fit=fit&fm=jpg' width='180px'></td><td><img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-t-kVWCzAWmrxeXsoZwz3cymvRdkIQ51X_8WesblDkKafiTUwfLURAC3deyPDsLVhdV4&usqp=CAU' width='180px'></td></tr><tr><td><input type='text' name='user_input' placeholder=''></td><td><input type='text' name='user_input' placeholder=''></td><td><input type='text' name='user_input' placeholder=''></td></tr><tr><td><img src='https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F34%2F2018%2F05%2F12170411%2Fcat-kitten-138468381.jpg&q=60' width='180px'></td><td><img src='http://icdn.dantri.com.vn/zoom/1200_630/2022/07/20/camapkhongxuongfaam-crop-crop-1658282229415.jpeg' width='180px'></td><td><img src='https://i.natgeofe.com/n/e3ae5fbf-ddc9-4b18-8c75-81d2daf962c1/3948225_3x4.jpg' width='180px'></td></tr><tr><td><input type='text' name='user_input' placeholder=''></td><td><input type='text' name='user_input' placeholder=''></td><td><input type='text' name='user_input' placeholder=''></td></tr></table>",
+                    "button_show": "Kiểm tra",
+                    "part_instruction": "Trả lời đúng [?1]",
+                    "answer_note": "Viết thường các đáp án",
+                    "answer": [
+                        "puppy",
+                        "cat",
+                        "crocodile",
+                        "dolphin",
+                        "giraffe",
+                        "ostrich",
+                        "hippo",
+                        "jellyfish",
+                        "snake",
+                        "kitten",
+                        "shark",
+                        "parrot"
+                    ],
+                    "points": 10
+                },
+                {
+                    "header": "",
+                    "instruction": "",
+                    "question_content": "[?2] Sắp xếp các con vật ở trên vào các nhóm: <br><ol><li>Chỉ sống trên cạn (bao gồm cả đầm lầy)</li><li>Chỉ sống dưới nước</li><li>Biết bay</li></ol>",
+                    "answer_content": "<ul><li>Hàng 1</li><li><input type='text' name='user_input' placeholder=''></li><li><input type='text' name='user_input' placeholder=''></li><li><input type='text' name='user_input' placeholder=''></li><li>Hàng 2</li><li><input type='text' name='user_input' placeholder=''></li><li><input type='text' name='user_input' placeholder=''></li><li><input type='text' name='user_input' placeholder=''></li><li>Hàng 3</li><li><input type='text' name='user_input' placeholder=''></li><li><input type='text' name='user_input' placeholder=''></li><li><input type='text' name='user_input' placeholder=''></li><li>Hàng 4</li><li><input type='text' name='user_input' placeholder=''></li><li><input type='text' name='user_input' placeholder=''></li><li><input type='text' name='user_input' placeholder=''></li></ul>",
+                    "button_show": "Kiểm tra",
+                    "part_instruction": "Trả lời đúng [?2]",
+                    "answer_note": "Điền theo thứ tự con vật từ trên xuống dưới, từ trái sang phải. Điền 1, 2 hoặc 3 theo nhóm ở đề bài. Ví dụ: con thỏ ở ô góc trên cùng thì ô 1 điền là 1.",
+                    "answer": [
+                        "1",
+                        "1",
+                        "1",
+                        "2",
+                        "1",
+                        "1",
+                        "1",
+                        "2",
+                        "1",
+                        "1",
+                        "2",
+                        "3"
+                    ],
+                    "points": 10
+                },
+                {
+                    "header": "",
+                    "instruction": "",
+                    "question_content": "[?3] Điền từ tiếng Anh tương ứng vào chỗ trống:",
+                    "answer_content": "<ul><li>sọc<input type='text' name='user_input' placeholder=''></li><li>trong suốt<input type='text' name='user_input' placeholder=''></li><li>sặc sỡ<input type='text' name='user_input' placeholder=''></li><li>đuôi<input type='text' name='user_input' placeholder=''></li><li>lông<input type='text' name='user_input' placeholder=''></li><li>bay<input type='text' name='user_input' placeholder=''></li></ul>",
+                    "button_show": "Kiểm tra",
+                    "part_instruction": "Trả lời đúng [?3]",
+                    "answer_note": "Viết thường các đáp án",
+                    "answer": [
+                        "stripe",
+                        "transparent",
+                        "colorful",
+                        "tail",
+                        "fur",
+                        "fly"
+                    ],
+                    "points": 10
+                },
+                {
+                    "header": "",
+                    "instruction": "",
+                    "question_content": "[?4] và [?5]: Giả sử bạn đi thăm sở thú. Hãy miêu tả các con vật trong sở thú (chọn từ 6 – 8 con vật đã học).<br>Ví dụ: Hello everyone, my name is … (giới thiệu tên, trường hợp). Now, I am visiting the zoo with my (parents, friends,…). There are … animals here. This is a lion. It has a yellow fur and a long tail… These animals are cute. I want to visit this zoo more often.",
+                    "answer_content": "",
+                    "button_show": "Hoàn thành",
+                    "part_instruction": "Hãy quay 1 video (1 – 2 phút) trình bày đoạn văn của [?4]. Thêm ngữ điệu để bài nói hay hơn.",
+                    "answer_note": "",
+                    "answer": [
+                    ],
+                    "points": 10
+                },
+                {
+                    "header": "",
+                    "instruction": "",
+                    "question_content": "[?6] Ôn tập các từ vựng của thầy kết hợp với các từ đã học của anh.",
+                    "answer_content": "",
+                    "button_show": "Hoàn thành",
+                    "part_instruction": "Hoàn thành [?6]",
+                    "answer_note": "",
+                    "answer": [],
+                    "points": 15
+                }
+            ],
+            [
+                {
+                    "header": "To be - Đại từ nhân xưng",
+                    "instruction": "",
+                    "question_content": "[?7] Sử dụng động từ to be với mẫu câu tương ứng nào trong Tiếng Việt?<br><ol><li>Ai là gì</li><li>Ai làm gì</li><li>Ai thế nào</li></ol>",
+                    "answer_content": "<input type='text' name='user_input' placeholder=''>",
+                    "button_show": "Kiểm tra",
+                    "part_instruction": "Trả lời đúng [?7]",
+                    "answer_note": "Viết thường số thứ tự đáp án, từ lớn đến nhỏ, không dấu cách, cách nhau bởi dấu phẩy. Ví dụ: 2,3,5",
+                    "answer": [
+                        "1,3"
+                    ],
+                    "points": 10
+                },
+                {
+                    "header": "",
+                    "instruction": "",
+                    "question_content": "[?8] Hỏi và trả lời theo mẫu (mẫu trong tờ bài tập):",
+                    "answer_content": "<ol><li>ten?</li><li>a pupil (n: học sinh)?</li><li>3. a teacher?</li><li>4. happy?</li></ol>",
+                    "button_show": "Hoàn thành",
+                    "part_instruction": "Hoàn thành [?8]",
+                    "answer_note": "",
+                    "answer": [
+                    ],
+                    "points": 10
+                },
+                {
+                    "header": "",
+                    "instruction": "",
+                    "question_content": "[?9] Điền vào chỗ trống theo mẫu:",
+                    "answer_content": "<table><tr><td><img src='https://i.ibb.co/1qjMWR5/image-2022-10-07-102019286.png' width='150px'></td><td><img src='https://i.ibb.co/ZG1X6rw/image-2022-10-07-102155119.png' width='150px'></td><td><img src='https://i.ibb.co/tzTRDs4/image-2022-10-07-102305287.png' width='150px'></td></tr><tr><td>0. boy: He is a boy.</td><td>1. man: <input type='text' name='user_input' placeholder=''></td><td>2. disk: <input type='text' name='user_input' placeholder=''></td></tr><td><img src='https://i.ibb.co/6nxP63Z/image-2022-10-07-102335577.png' width='150px'></td><td><img src='https://i.ibb.co/QrvFZx4/image-2022-10-07-102415091.png' width='150px'></td><td><img src='https://i.ibb.co/zG3bv2D/image-2022-10-07-102442838.png' width='150px'></td></tr><tr><td>3. woman: <input type='text' name='user_input' placeholder=''></td><td>4. mouse: <input type='text' name='user_input' placeholder=''></td><td>5. girl: <input type='text' name='user_input' placeholder=''></td></tr></table>",
+                    "button_show": "Kiểm tra",
+                    "part_instruction": "Trả lời đúng [?9]",
+                    "answer_note": "Đầu câu viết hoa, cuối câu có dấu thích hợp, viết đúng chính tả.",
+                    "answer": [
+                        "He is a man.",
+                        "It is a disk.",
+                        "She is a woman.",
+                        "It is a mouse.",
+                        "She is a girl."
+                    ],
+                    "points": 10
+                },
+                {
+                    "header": "",
+                    "instruction": "",
+                    "question_content": "[?10] Hỏi và trả lời theo mẫu (mẫu trong tờ bài tập):",
+                    "answer_content": "<ol><li>tall (father)?</li><li>funny (brother)?</li><li>a teacher (mother)?</li><li>eight (sister)?</li></ol>",
+                    "button_show": "Hoàn thành",
+                    "part_instruction": "Hoàn thành [?10]",
+                    "answer_note": "",
+                    "answer": [
+                    ],
+                    "points": 10
+                }
+            ],
+            [
+                {
+                    "header": "Grammar: We are / You are / They are",
+                    "instruction": "<img src='https://i.ibb.co/ZMDDshr/image-2022-10-07-103124281.png' width='500px'><br><img src='https://i.ibb.co/Vt5zZs7/image-2022-10-07-103150657.png' width='500px'><br>",
+                    "question_content": "[?11] Đọc to các câu sau:",
+                    "answer_content": "Dave, Zoe! Are you here?<br>Yes, we are!<br>Surprise (n: bất ngờ)!<br>Wow!<br>You are great (adj: tuyệt vời)<br>They’re very good friends.<br>",
+                    "button_show": "Hoàn thành",
+                    "part_instruction": "Hoàn thành [?11]",
+                    "answer_note": "",
+                    "answer": [
+                    ],
+                    "points": 10
+                },
+                {
+                    "header": "",
+                    "instruction": "",
+                    "question_content": "[?12] Điền vào chỗ trống (theo mẫu:",
+                    "answer_content": "<table><tr><th>Singular (số ít)</th><th>Plural (số nhiều)</th></tr><tr><td>I</td><td><input type='text' name='user_input' placeholder=''></td></tr><tr><td>you</td><td>you</td></tr><tr><td>he, she, it</td><td><input type='text' name='user_input' placeholder=''></td></tr></table>",
+                    "button_show": "Kiểm tra",
+                    "part_instruction": "Trả lời đúng [?12]",
+                    "answer_note": "Viết thường các đáp án",
+                    "answer": [
+                        "we",
+                        "they"
+                    ],
+                    "points": 5
+                },
+                {
+                    "header": "",
+                    "instruction": "",
+                    "question_content": "[?13] Điền từ viết tắt (theo mẫu):",
+                    "answer_content": "<table><tr><th>Viết thường</th><th>Viết tắt</th></tr><tr><td>I am</td><td>I'm</td></tr><tr><td>You are</td><td><input type='text' name='user_input' placeholder=''></td></tr><tr><td>I am not</td><td><input type='text' name='user_input' placeholder=''></td></tr><tr><td>You are not</td><td><input type='text' name='user_input' placeholder=''></td></tr><tr><td>He is</td><td><input type='text' name='user_input' placeholder=''></td></tr><tr><td>She is</td><td><input type='text' name='user_input' placeholder=''></td></tr><tr><td>It is</td><td><input type='text' name='user_input' placeholder=''></td></tr><tr><td>He is not</td><td><input type='text' name='user_input' placeholder=''></td></tr><tr><td>She is not</td><td><input type='text' name='user_input' placeholder=''></td></tr><tr><td>We are</td><td><input type='text' name='user_input' placeholder=''></td></tr><tr><td>They are</td><td><input type='text' name='user_input' placeholder=''></td></tr><tr><td>We are not</td><td><input type='text' name='user_input' placeholder=''></td></tr><tr><td>They are not</td><td><input type='text' name='user_input' placeholder=''></td></tr></table>",
+                    "button_show": "Kiểm tra",
+                    "part_instruction": "Trả lời đúng [?13]",
+                    "answer_note": "Viết hoa chữ cái đầu đáp án",
+                    "answer": [
+                        "You're",
+                        "I'm not",
+                        "You aren't",
+                        "He's",
+                        "She's",
+                        "It's",
+                        "He isn't",
+                        "She isn't",
+                        "We're",
+                        "They're",
+                        "We aren't",
+                        "They aren't"
+                    ],
+                    "points": 12
+                },
+                {
+                    "header": "",
+                    "instruction": "",
+                    "question_content": "[?14] Điền we're, you're, they're theo mẫu:",
+                    "answer_content": "<table><tr><td>0. Dave and I / friends</td><td><i>We’re</i> friends.</td></tr><tr><td>1. Zoe and Brian / not sad</td><td><i>They aren’t</i> sad.</td></tr><tr><td>My friend and I / pupils</td><td><input type='text' name='user_input' placeholder=''> pupils.</td></tr><tr><td>You and Brian / hungry</td><td><input type='text' name='user_input' placeholder=''> hungry.</td></tr><tr><td>The lions / big</td><td><input type='text' name='user_input' placeholder=''> big.</td></tr></table>",
+                    "button_show": "Kiểm tra",
+                    "part_instruction": "Trả lời đúng [?14]",
+                    "answer_note": "Viết hoa chữ cái đầu tiên",
+                    "answer": [
+                        "We're",
+                        "You're",
+                        "They're"
+                    ],
+                    "points": 8
+                },
+                {
+                    "header": "",
+                    "instruction": "",
+                    "question_content": "[?15] Viết câu hỏi và câu trả lời (theo mẫu):",
+                    "answer_content": "<table><tr><td>they / pupils</td><td>Are they pupils?</td><td>Yes, they are.</td></tr><tr><td>you / teachers</td><td>Are you teachers?</td><td>No, we aren’t.</td></tr><tr><td>we / bad</td><td><input type='text' name='user_input' placeholder=''></td><td>No, you aren’t.</td></tr><tr><td>you / hungry</td><td>Are you hungry?</td><td>Yes, <input type='text' name='user_input' placeholder=''></td></tr><tr><td>we / short</td><td><input type='text' name='user_input' placeholder=''></td><td>No, you aren’t.</td></tr><tr><td>they / good</td><td>Are they good?</td><td>No, <input type='text' name='user_input' placeholder=''></td></tr></table>",
+                    "button_show": "Kiểm tra",
+                    "part_instruction": "Trả lời đúng [?15]",
+                    "answer_note": "Viết hoa đầu câu, có dấu câu đầy đủ như mẫu.",
+                    "answer": [
+                        "Are we bad?",
+                        "we are.",
+                        "Are we short?",
+                        "they aren't."
+                    ],
+                    "points": 10
+                },
+                {
+                    "header": "",
+                    "instruction": "",
+                    "question_content": "[?16] Nghe và điền vào câu trả lời đúng:",
+                    "answer_content": "<audio controls preload='auto' src='https://docs.google.com/uc?export=open&amp;id=10RVkMbyWvoByacuA5uL8MDXxI74fST0S' type='audio/mp3'></audio><br><table><tr><td>A. Zoe is happy.</td><td>B. Zoe isn’t happy.</td><td><input type='text' name='user_input' placeholder=''></td></tr><tr><td>A. Brian is a good singer.</td><td>B. Brian is a bad singer.</td><td><input type='text' name='user_input' placeholder=''></td></tr><tr><td>A. It’s an iguana.</td><td>B. It’s an alligator.</td><td><input type='text' name='user_input' placeholder=''></td></tr><tr><td>A. The classroom is big.</td><td>B. The classroom is small.</td><td><input type='text' name='user_input' placeholder=''></td></tr><tr><td>A. The cherries are good.</td><td>B. The cherries are bad.</td><td><input type='text' name='user_input' placeholder=''></td></tr><tr><td>A. They are good friends.</td><td>B. They aren’t good friends.</td><td><input type='text' name='user_input' placeholder=''></td></tr></table>",
+                    "button_show": "Kiểm tra",
+                    "part_instruction": "Trả lời đúng [?16]",
+                    "answer_note": "Nếu đáp án A đúng, điền A; đáp án B đúng, điền B.",
+                    "answer": [
+                        "A",
+                        "B",
+                        "A",
+                        "B",
+                        "A",
+                        "A"
+                    ],
+                    "points": 10
+                }
+            ],
+            [
+                {
+                    "header": "Chúc mừng bạn đã hoàn thành",
+                    "instruction": "Nhấn nút F11 để thoát màn hình. Chúc mừng bạn đã hoàn thành bài tập. Hãy nộp kết quả của bạn qua Zalo.",
+                    "question_content": "<b>Vào ứng dụng Toss trên cả 2 điện thoại để lấy hộp quà nhé!</b>",
+                    "answer_content": "",
+                    "button_show": "Hoàn thành!",
+                    "part_instruction": "",
+                    "answer_note": "",
+                    "answer": [
+                    ],
+                    "points": 10
+                }
+            ]
+        ]
+    }
+]
