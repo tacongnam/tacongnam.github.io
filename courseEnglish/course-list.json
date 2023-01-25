@@ -5,9 +5,9 @@
         "course_link": "https://google.com"
     },
     {
-        "course_name": "Course 123",
-        "course_time": 120,
-        "course_break": 10,
+        "course_name": "Course 456",
+        "course_time": 90,
+        "course_break": 0,
         "course_link": "https://google.com"
     }
 ]
