@@ -1,13 +1,13 @@
 [{
-        "course-name": "Course 123",
-        "course-time": 120,
-        "course-break": 10,
-        "course-link": "https://google.com"
+        "course_name": "Course 123",
+        "course_time": 120,
+        "course_break": 10,
+        "course_link": "https://google.com"
     },
     {
-        "course-name": "Course 123",
-        "course-time": 120,
-        "course-break": 10,
-        "course-link": "https://google.com"
+        "course_name": "Course 123",
+        "course_time": 120,
+        "course_break": 10,
+        "course_link": "https://google.com"
     }
 ]
