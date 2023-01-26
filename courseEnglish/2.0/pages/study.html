@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study system</title>
+    <link rel="stylesheet" href="/assets/font/fontawesome-5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="/css/all.css">
+</head>
+
+<body onLoad="firstLoad()">
+    <div class="blank-slide" style="position: fixed; top: 0; bottom: 0; left: 0; right: 0; background-color: #ffffff; z-index: 2;"></div>
+    <div class="loading-slide">
+        <div class="loading-slide__header">Hệ thống học tập</div>
+        <div class="loading-slide__container">
+            <div class="loading-slide--icon"></div>
+            <div class="loading-slide--text">Đang tải...</div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="info-container">
+            <div class="info__clock">Timeleft 20:15</div>
+            <div class="info__button-container">
+                <div class="info__button">
+                    <button class="button button-end" title="Submit" disabled><i class="fas fa-paper-plane" style="font-size: 16px;"></i> Submit</button>
+                </div>
+                <div class="info__button">
+                    <button class="button button-start-pause" title="Pause"><i class="fas fa-play" style="font-size: 16px;"></i> Start</button>
+                </div>
+            </div>
+        </div>
+        <div class="study-container">
+            <div class="lesson-page">
+                <div class="lesson__header">
+                    Đây là một lesson header có vẻ dài
+                </div>
+                <div class="lesson__container">
+                    <div class="lesson__part">
+                        <div class="lesson__content-header">
+                            I. Hello
+                        </div>
+                        <div class="lesson__content-passage">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis luctus eleifend erat id varius. Duis tincidunt arcu vel leo tincidunt iaculis. Proin eget dictum nisi. Proin elit arcu, ornare vel tortor semper, ultricies fringilla urna. Donec bibendum, dui
+                            ac eleifend consectetur, mauris sem euismod libero, a interdum nunc urna sed mi. Praesent nec laoreet est, in fermentum erat. Mauris sed porttitor odio. Phasellus nec lectus libero. Morbi lacinia, elit at efficitur feugiat,
+                            diam ligula rhoncus metus, vitae imperdiet eros est id ante. Proin dui orci, cursus non urna vel, volutpat posuere lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam viverra
+                            est arcu. Duis scelerisque, metus et suscipit tincidunt, arcu felis pellentesque sapien, vitae lobortis nisi nisi in ipsum. Sed sit amet sem vel libero volutpat dapibus. In vitae massa pulvinar, cursus diam sit amet, elementum
+                            enim. Phasellus feugiat neque turpis.
+                        </div>
+                        <div class="lesson__question">
+                            <div class="lesson__question-header">
+                                Question 1:
+                            </div>
+                            <div class="lesson__question-content">
+                                Nhà bà Hoa có tổng cộng <input type="text" name="" class="question-input-get-classes question-input__short-input" id="" placeholder="Nhập đáp án"> con gà.<br> Nhập đoạn văn của bạn tại đây: <br><textarea name="" class="question-input-get-classes question-input__long-input"
+                                    id="" rows="3" placeholder="Nhập đáp án. Chỉnh độ kích thước bằng cách kéo biểu tượng ở góc dưới bên phải."></textarea><br>
+
+                                <select name="" class="question-input-get-classes question-input__dropdown" id="">
+                                    <option value="" disabled selected>Chọn đáp án của bạn</option>
+                                    <option value="volvo">Volvo</option>
+                                    <option value="saab">Saab</option>
+                                    <option value="mercedes">Mercedes</option>
+                                    <option value="audi">Audi</option>
+                                </select><br>
+
+                            </div>
+                            <div class="lesson__question-constraint">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis luctus eleifend erat id varius. Duis tincidunt arcu vel leo tincidunt iaculis. Proin eget dictum nisi. Proin elit arcu, ornare vel tortor semper, ultricies fringilla urna. Donec bibendum, dui
+                                ac eleifend consectetur, mauris sem euismod libero, a interdum nunc urna sed mi. Praesent nec laoreet est, in fermentum erat. Mauris sed porttitor odio. Phasellus nec lectus libero. Morbi lacinia, elit at efficitur feugiat,
+                                diam ligula rhoncus metus, vitae imperdiet eros est id ante. Proin dui orci, cursus non urna vel, volutpat posuere lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam
+                                viverra est arcu. Duis scelerisque, metus et suscipit tincidunt, arcu felis pellentesque sapien, vitae lobortis nisi nisi in ipsum. Sed sit amet sem vel libero volutpat dapibus. In vitae massa pulvinar, cursus diam sit
+                                amet, elementum enim. Phasellus feugiat neque turpis.
+                            </div>
+
+                            <div class="lesson__question-button">
+                                <button class="button button-info lesson__button">Check</button>
+                                <div class="lesson__question-return-message">Correct</div>
+                                <div class="lesson__question-response">Câu B là câu trả lời đúng.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="lesson__part">
+                        <div class="lesson__content-subheader">
+                            2. Hello (second part)
+                        </div>
+                        <div class="lesson__content-passage">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis luctus eleifend erat id varius. Duis tincidunt arcu vel leo tincidunt iaculis. Proin eget dictum nisi. Proin elit arcu, ornare vel tortor semper, ultricies fringilla urna. Donec bibendum, dui
+                            ac eleifend consectetur, mauris sem euismod libero, a interdum nunc urna sed mi. Praesent nec laoreet est, in fermentum erat. Mauris sed porttitor odio. Phasellus nec lectus libero. Morbi lacinia, elit at efficitur feugiat,
+                            diam ligula rhoncus metus, vitae imperdiet eros est id ante. Proin dui orci, cursus non urna vel, volutpat posuere lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam viverra
+                            est arcu. Duis scelerisque, metus et suscipit tincidunt, arcu felis pellentesque sapien, vitae lobortis nisi nisi in ipsum. Sed sit amet sem vel libero volutpat dapibus. In vitae massa pulvinar, cursus diam sit amet, elementum
+                            enim. Phasellus feugiat neque turpis.
+                        </div>
+                        <div class="lesson__content-passage">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis luctus eleifend erat id varius. Duis tincidunt arcu vel leo tincidunt iaculis. Proin eget dictum nisi. Proin elit arcu, ornare vel tortor semper, ultricies fringilla urna. Donec bibendum, dui
+                            ac eleifend consectetur, mauris sem euismod libero, a interdum nunc urna sed mi. Praesent nec laoreet est, in fermentum erat. Mauris sed porttitor odio. Phasellus nec lectus libero. Morbi lacinia, elit at efficitur feugiat,
+                            diam ligula rhoncus metus, vitae imperdiet eros est id ante. Proin dui orci, cursus non urna vel, volutpat posuere lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam viverra
+                            est arcu. Duis scelerisque, metus et suscipit tincidunt, arcu felis pellentesque sapien, vitae lobortis nisi nisi in ipsum. Sed sit amet sem vel libero volutpat dapibus. In vitae massa pulvinar, cursus diam sit amet, elementum
+                            enim. Phasellus feugiat neque turpis.
+                        </div>
+                        <div class="lesson__question">
+                            <div class="lesson__question-header">
+                                Question 1:
+                            </div>
+                            <div class="lesson__question-content">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis luctus eleifend erat id varius. Duis tincidunt arcu vel leo tincidunt iaculis. Proin eget dictum nisi. Proin elit arcu, ornare vel tortor semper, ultricies fringilla urna. Donec bibendum, dui
+                                ac eleifend consectetur, mauris sem euismod libero, a interdum nunc urna sed mi. Praesent nec laoreet est, in fermentum erat. Mauris sed porttitor odio. Phasellus nec lectus libero. Morbi lacinia, elit at efficitur feugiat,
+                                diam ligula rhoncus metus, vitae imperdiet eros est id ante. Proin dui orci, cursus non urna vel, volutpat posuere lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam
+                                viverra est arcu. Duis scelerisque, metus et suscipit tincidunt, arcu felis pellentesque sapien, vitae lobortis nisi nisi in ipsum. Sed sit amet sem vel libero volutpat dapibus. In vitae massa pulvinar, cursus diam sit
+                                amet, elementum enim. Phasellus feugiat neque turpis.
+                            </div>
+                            <div class="lesson__question-constraint">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis luctus eleifend erat id varius. Duis tincidunt arcu vel leo tincidunt iaculis. Proin eget dictum nisi. Proin elit arcu, ornare vel tortor semper, ultricies fringilla urna. Donec bibendum, dui
+                                ac eleifend consectetur, mauris sem euismod libero, a interdum nunc urna sed mi. Praesent nec laoreet est, in fermentum erat. Mauris sed porttitor odio. Phasellus nec lectus libero. Morbi lacinia, elit at efficitur feugiat,
+                                diam ligula rhoncus metus, vitae imperdiet eros est id ante. Proin dui orci, cursus non urna vel, volutpat posuere lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam
+                                viverra est arcu. Duis scelerisque, metus et suscipit tincidunt, arcu felis pellentesque sapien, vitae lobortis nisi nisi in ipsum. Sed sit amet sem vel libero volutpat dapibus. In vitae massa pulvinar, cursus diam sit
+                                amet, elementum enim. Phasellus feugiat neque turpis.
+                            </div>
+                            <div class="lesson__question-button">
+                                <button class="button button-info lesson__button">Check</button>
+                                <div class="lesson__question-return-message">Correct</div>
+                                <div class="lesson__question-response">Câu B là câu trả lời đúng.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="lesson__footer">
+                    <ul>
+                        <li>Nhấn vào hình ảnh để xem hình lớn hơn.</li>
+                        <li>Nhấn Submit để nộp bài.</li>
+                        <li>Nhấn Pause / Continue để tạm dừng / tiếp tục bài học.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="navigation">
+            <div class="navigation__block">
+                <div class="navigation__block--text">Home</div>
+            </div>
+            <div class="navigation__block">
+                <div class="navigation__block--text">Home</div>
+            </div>
+            <div class="navigation__block navigation__block--active">
+                <div class="navigation__block--text">Home</div>
+            </div>
+            <div class="navigation__block">
+                <div class="navigation__block--text navigation__block--longtext">This is a very very very very very very long navigation button</div>
+            </div>
+            <div class="navigation__block">
+                <div class="navigation__block--text">Home</div>
+            </div>
+            <div class="navigation__block">
+                <div class="navigation__block--text">Home</div>
+            </div>
+            <div class="navigation__block">
+                <div class="navigation__block--text">Home</div>
+            </div>
+            <div class="navigation__block">
+                <div class="navigation__block--text">Home</div>
+            </div>
+            <div class="navigation__block">
+                <div class="navigation__block--text">Home</div>
+            </div>
+            <div class="navigation__block">
+                <div class="navigation__block--text">Home</div>
+            </div>
+            <div class="navigation__block">
+                <div class="navigation__block--text">Home</div>
+            </div>
+        </div>
+    </div>
+    <div class="dialog">
+        <div class="dialog-container">
+            <div class="dialog__header">
+                <div class="dialog__header--text">This is dialog's header This is dialog's header This is dialog's header This is dialog's header This is dialog's header</div>
+                <div class="button dialog__header--close-button"><i class="fas fa-times" style="font-size: 16px;" title="Close dialog"></i></div>
+            </div>
+            <div class="dialog__content">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis luctus eleifend erat id varius. Duis tincidunt arcu vel leo tincidunt iaculis. Proin eget dictum nisi. Proin elit arcu, ornare vel tortor semper, ultricies fringilla urna. Donec bibendum, dui
+                ac eleifend consectetur, mauris sem euismod libero, a interdum nunc urna sed mi. Praesent nec laoreet est, in fermentum erat. Mauris sed porttitor odio. Phasellus nec lectus libero. Morbi lacinia, elit at efficitur feugiat, diam ligula
+                rhoncus metus, vitae imperdiet eros est id ante. Proin dui orci, cursus non urna vel, volutpat posuere lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam viverra est arcu. Duis scelerisque,
+                metus et suscipit tincidunt, arcu felis pellentesque sapien, vitae lobortis nisi nisi in ipsum. Sed sit amet sem vel libero volutpat dapibus. In vitae massa pulvinar, cursus diam sit amet, elementum enim. Phasellus feugiat neque turpis.
+            </div>
+            <div class="dialog__footer">
+                <button class="button dialog__footer--button-left">Accept</button>
+                <button class="button button-info dialog__footer--button-right">Accept</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="toast">
+
+    </div>
+
+    <script src="/js/jquery-3.6.3.min.js"></script>
+    <script src="/js/firstLoad.js"></script>
+    <script src="/js/loadCourse.js"></script>
+    <script src="/js/judge.js"></script>
+    <script src="/js/timer.js"></script>
+
+    <script>
+        var phase = "notLoad";
+        // phase = notLoad : chưa load xong
+        // phase = selectingCourse : đang chọn bài
+        // phase = notStart : đã chọn bài nhưng chưa bắt đầu
+        // phase = starting : đã bắt đầu làm bài
+        // phase = pausing : đang tạm dừng
+        // phase = ending : kết thúc bài làm
+    </script>
+</body>
+
+</html>
