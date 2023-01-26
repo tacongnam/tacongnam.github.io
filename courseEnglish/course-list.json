@@ -1,14 +1,14 @@
 [{
-        "course_name": "Course 1 (Test)",
-        "course_time": 120,
-        "course_break": 10,
-        "course_link": "https://google.com"
+        "course_name": "Course_501",
+        "course_time": 7200,
+        "course_break": 900,
+        "course_link": "https://tacongnam.github.io/courseEnglish/course_501.json"
     },
     {
-        "course_name": "Course 2 (Test)",
-        "course_time": 90,
-        "course_break": 0,
-        "course_link": "https://google.com"
+        "course_name": "Course_502",
+        "course_time": 2100,
+        "course_break": 2400,
+        "course_link": "https://tacongnam.github.io/courseEnglish/course_502.json"
     },
     {
         "course_name": "Course 3 (Test)",
