@@ -5,7 +5,6 @@
         "course_time": "7200",
         "auto_stop": 900,
         "pass_score": 140,
-        "preparation_code": "<ul><li>Giấy, bút để học hiệu quả.</li><li>Dọn dẹp bàn học rộng rãi, thoáng mát.</li><li>Thời gian tối đa của bài học này là 120 phút. <b>Cứ mỗi 15' thì bài thi sẽ tạm dừng. Hãy đứng dậy không nhìn máy tính để đỡ mỏi mắt!</b></li><li>Hướng dẫn: Chuyển qua các phần khác (listening, reading,...) bằng cách nhấn vào phần đó trong ô phía trên.</li><li>Nếu bấm kiểm tra không chạy thì đợi khoảng 5s rồi bấm lại.</li><li>Không nhấn F5 trong khi đang học vì sẽ bị mất hết dữ liệu. Khi làm xong bài nào nhớ bấm 'Kiểm tra' hoặc 'Hoàn thành' để kiểm tra cũng như lưu lại điểm. Khi hết giờ, hệ thống cũng sẽ chấm lại toàn bộ các bài, kể cả các bài đang làm nhưng chưa bấm 'Hoàn thành' hay 'Kiểm tra'.</li></ul>",
         "parts_code": [
             "Introduction",
             "Goals",
@@ -27,6 +26,19 @@
             "Phần cuối cùng"
         ],
         "course_content": [
+            [
+                {
+                    "header": "Hướng dẫn",
+                    "instruction": "<ul><li>Giấy, bút để học hiệu quả.</li><li>Dọn dẹp bàn học rộng rãi, thoáng mát.</li><li>Thời gian tối đa của bài học này là 120 phút. <b>Cứ mỗi 15' thì bài thi sẽ tạm dừng. Hãy đứng dậy không nhìn máy tính để đỡ mỏi mắt!</b></li><li>Hướng dẫn: Chuyển qua các phần khác (listening, reading,...) bằng cách nhấn vào phần đó trong ô phía trên.</li><li>Nếu bấm kiểm tra không chạy thì đợi khoảng 5s rồi bấm lại.</li><li>Không nhấn F5 trong khi đang học vì sẽ bị mất hết dữ liệu. Khi làm xong bài nào nhớ bấm 'Kiểm tra' hoặc 'Hoàn thành' để kiểm tra cũng như lưu lại điểm. Khi hết giờ, hệ thống cũng sẽ chấm lại toàn bộ các bài, kể cả các bài đang làm nhưng chưa bấm 'Hoàn thành' hay 'Kiểm tra'.</li></ul>"
+                    "question_content": "",
+                    "answer_content": "",
+                    "button_show": "",
+                    "part_instruction": "",
+                    "answer_note": "",
+                    "answer": [],
+                    "points": 0
+                }
+            ],
             [
                 {
                     "header": "Mục tiêu bài học",
