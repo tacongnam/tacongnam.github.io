@@ -1,0 +1,135 @@
+.dialog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background-color: rgb(0, 0, 0, 0.3);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 4;
+    margin: 0;
+}
+
+.dialog-container {
+    background-color: #ffffff;
+    opacity: 1;
+    width: 750px;
+    min-height: 300px;
+    max-height: 600px;
+    position: relative;
+    box-shadow: 0px 3px 6px;
+}
+
+.dialog__header {
+    background-color: #fff;
+    border-bottom: 1px black solid;
+    min-height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between
+}
+
+.dialog__content {
+    min-height: 180px;
+    max-height: 450px;
+    box-sizing: border-box;
+    font-family: Quicksand--Regular;
+    font-size: 16px;
+    padding: 10px 16px;
+    overflow: auto;
+}
+
+.dialog__footer {
+    background-color: #fff;
+    border-top: 1px black solid;
+    min-height: 50px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.dialog__footer--button-left,
+.dialog__footer--button-right {
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    min-width: 115px;
+}
+
+.dialog__header--text {
+    font-family: Quicksand--Bold;
+    font-size: 20px;
+    padding: 10px 8px 10px 16px;
+}
+
+.dialog__header--close-button {
+    padding-left: 20px;
+    padding-right: 15px;
+    height: auto;
+    min-width: auto;
+    background-color: transparent;
+    color: black;
+}
+
+.dialog__header--close-button:hover {
+    cursor: pointer;
+    background-color: transparent;
+    color: red;
+}
+
+.dialog table {
+    border-collapse: collapse;
+    width: 100%;
+    font-family: Quicksand--Regular;
+    font-size: 16px;
+    margin-top: 8px;
+}
+
+.dialog td,
+th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+
+.dialog tr:hover {
+    background-color: #dddddd;
+}
+
+.dialog input[type="radio"] {
+    width: 20px;
+    height: 20px;
+}
+
+.dialog input[type="file"]::-webkit-file-upload-button {
+    display: none;
+    visibility: hidden;
+}
+
+.dialog input[type="file"]::before {
+    content: 'Nhấn để chọn file';
+    display: inline-block;
+    background: linear-gradient(top, #f9f9f9, #e3e3e3);
+    border: 1px solid #999;
+    border-radius: 4px;
+    padding: 5px 8px;
+    outline: none;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    cursor: pointer;
+    text-shadow: 1px 1px #fff;
+    font-family: Quicksand--Bold;
+    font-size: 16px;
+    margin-right: 10px;
+    margin-bottom: 16px;
+}
+
+.dialog input[type="file"]:hover::before {
+    border-color: black;
+}
+
+.dialog input[type="file"]:active::before {
+    background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+}

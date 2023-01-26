@@ -1,0 +1,117 @@
+.lesson__header {
+    display: flex;
+    flex-direction: column;
+    font-family: Quicksand--Bold;
+    font-size: 32px;
+    padding-bottom: 10px;
+    margin-bottom: 8px;
+    border-bottom: 1px black solid;
+}
+
+.lesson__content-header {
+    font-family: Quicksand--SemiBold;
+    font-size: 24px;
+    margin-bottom: 8px;
+    margin-top: 16px;
+}
+
+.lesson__content-subheader {
+    font-family: Quicksand--SemiBold;
+    font-style: italic;
+    font-size: 20px;
+    margin-bottom: 8px;
+    margin-left: 12px;
+    margin-top: 12px;
+}
+
+.lesson__content-passage {
+    margin-left: 24px;
+    font-family: Quicksand--Regular;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.lesson__question {
+    display: flex;
+    flex-direction: column;
+    border: 2.5px black solid;
+    border-radius: 4px;
+    margin-top: 24px;
+    margin-bottom: 8px;
+    margin-left: 24px;
+    padding: 12px 12px 12px 16px;
+}
+
+.lesson__question-header {
+    font-family: Quicksand--SemiBold;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.lesson__question-content {
+    font-family: Quicksand--Regular;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.lesson__question-constraint {
+    font-family: Quicksand--Regular;
+    font-style: italic;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.lesson__question-button {
+    border-top: 1px black solid;
+    padding-top: 16px;
+}
+
+.lesson__question-return-message {
+    margin-top: 8px;
+    font-family: Quicksand--Bold;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.lesson__question-return-message--success {
+    color: #019160;
+}
+
+.lesson__question-return-message--error {
+    color: #ff4545;
+}
+
+.lesson__question-response {
+    font-family: Quicksand--Regular;
+    font-style: italic;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.lesson-page table {
+    border-collapse: collapse;
+    font-family: Quicksand--Regular;
+    font-size: 16px;
+    margin-top: 8px;
+}
+
+.lesson-page td,
+th {
+    border: 1px solid #000000;
+    text-align: center;
+    padding: 8px;
+}
+
+.lesson-page tr:hover {
+    background-color: #dddddd;
+}
+
+.lesson__footer {
+    font-family: Quicksand--Regular;
+    font-style: italic;
+    font-size: 18px;
+    margin-bottom: 24px;
+    margin-top: 16px;
+    border-top: 1px black solid;
+    padding-top: 12px;
+}

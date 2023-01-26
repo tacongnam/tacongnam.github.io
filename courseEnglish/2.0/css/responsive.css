@@ -1,0 +1,33 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: calc(100% - 300px) 300px;
+    grid-template-rows: 150px calc(100vh - 150px);
+}
+
+@media only screen and (max-width: 750px) {
+    .container {
+        display: block;
+    }
+    .navigation {
+        display: none;
+    }
+    .clock-container {
+        position: fixed;
+        top: 10px;
+        right: 15px;
+        padding: 10px;
+        z-index: 1;
+        font-size: 20px;
+    }
+    .study-container {
+        position: relative;
+        padding-top: 90px !important;
+        font-size: 16px !important;
+        z-index: 0;
+    }
+}

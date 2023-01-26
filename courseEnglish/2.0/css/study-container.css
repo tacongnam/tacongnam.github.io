@@ -1,0 +1,11 @@
+.study-container {
+    z-index: 1;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color: aliceblue;
+    padding: 25px 20px 10px 45px;
+    font-size: 20px;
+    text-align: justify;
+    overflow: auto;
+    font-family: Quicksand--Regular;
+}
