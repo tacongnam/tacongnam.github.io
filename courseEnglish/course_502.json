@@ -1,0 +1,205 @@
+[
+    {
+        "week_name": "Đề thi vào lớp 6 trường THCS Lê Quý Đôn năm học 2022 - 2023",
+        "course_name": "Môn Tiếng Anh",
+        "course_time": 2100,
+        "auto_stop": 2400,
+        "pass_score": 8,
+        "preparation_code": "<ul><li>Giấy, bút để học hiệu quả.</li><li>Dọn dẹp bàn học rộng rãi, thoáng mát.</li><li>Thời gian tối đa của bài học này là 120 phút. <b>Cứ mỗi 15' thì bài thi sẽ tạm dừng. Hãy đứng dậy không nhìn máy tính để đỡ mỏi mắt!</b></li><li>Hướng dẫn: Chuyển qua các phần khác (listening, reading,...) bằng cách nhấn vào phần đó trong ô phía trên.</li><li>Nếu bấm kiểm tra không chạy thì đợi khoảng 5s rồi bấm lại.</li><li>Không nhấn F5 trong khi đang học vì sẽ bị mất hết dữ liệu. Khi làm xong bài nào nhớ bấm 'Kiểm tra' hoặc 'Hoàn thành' để kiểm tra cũng như lưu lại điểm. Khi hết giờ, hệ thống cũng sẽ chấm lại toàn bộ các bài, kể cả các bài đang làm nhưng chưa bấm 'Hoàn thành' hay 'Kiểm tra'.</li></ul>",
+        "parts_code": [
+            "Introduction",
+            "Goals",
+            "Vocabulary_MyLegs",
+            "Grammar",
+            "Vocabulary_MyBody",
+            "Last"
+        ],
+        "parts_name": [
+            "Hướng dẫn",
+            "Mục tiêu bài học",
+            "Từ vựng: My legs",
+            "Ngữ pháp: Giới từ chỉ địa điểm",
+            "Từ vựng: Ôn tập tổng hợp",
+            "Phần cuối cùng"
+        ],  
+        "course_content": [
+            [
+                {
+                    "header": "Mục tiêu bài học",
+                    "instruction": "<ul> <li>Biết và sử dụng thành thạo từ ngữ về các bộ phận phần dưới cơ thể.</li> <li>Luyện tập đặt câu với this, that, these, those.</li> <li>Biết một số giới từ chỉ vị trí.</li><li>Điểm đạt của bài học này là <strong>140 / 185</strong>.</li></ul><p><strong>In tài liệu giấy được gửi trước đó. Sử dụng tài liệu giấy để học. Đến bài nào thì mới làm ở máy bàiđấy.</strong></p>",
+                    "question_content": "Đọc to mục tiêu bài học",
+                    "answer_content": "",
+                    "button_show": "Hoàn thành",
+                    "part_instruction": "",
+                    "answer_note": "",
+                    "answer": [],
+                    "points": 0
+                }
+            ],
+            [
+                {
+                    "header": "Vocabulary: Review",
+                    "instruction": "",
+                    "question_content": "[?0] Tự ôn tập các từ chỉ bộ phận trên mặt và trên cơ thể (đã học). Phần này không tính điểm nhưng có liên quan đến các bài sau.",
+                    "answer_content": "",
+                    "button_show": "Hoàn thành",
+                    "part_instruction": "Hoàn thành [?0]",
+                    "answer_note": "",
+                    "answer": [
+                    ],
+                    "points": 0
+                },
+                {
+                    "header": "Vocabulary: My legs",
+                    "instruction": "",
+                    "question_content": "[?1] Chép các từ sau vào vở học từ. Trong lúc chép hãy đọc to từ lên nhiều lần. Bấm vào biểu tượng âm thanh trên web để phát âm từ<br>",
+                    "answer_content": "<br><table> <tr> <th>Từ</th> <th>Phiên âm</th> <th>Từ loại</th> <th>Nghĩa</th> <th>Âm thanh</th> </tr> <tr> <td>foot<br>feet (số nhiều)</td> <td>/fʊt/<br>/fiːt/</td> <td>n</td> <td>bàn chân</td> <td><audio controls preload='auto'> <source src='https://www.oxfordlearnersdictionaries.com/media/english/uk_pron_ogg/f/foo/foot_/foot__gb_2.ogg' type='audio/ogg'> <source src='https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/f/foo/foot_/foot__gb_2.mp3' type='audio/mpeg'>Your browser does not support the audio element. </audio><br><audio controls preload='auto'> <source src='https://www.oxfordlearnersdictionaries.com/media/english/uk_pron_ogg/f/fee/feet_/feet__gb_2.ogg' type='audio/ogg'> <source src='https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/f/fee/feet_/feet__gb_2.mp3' type='audio/mpeg'>Your browser does not support the audio element. </audio> </td> </tr> <tr> <td>leg</td> <td>/leɡ/</td> <td>n</td> <td>lưng</td> <td><audio controls preload='auto'> <source src='https://www.oxfordlearnersdictionaries.com/media/english/uk_pron_ogg/l/leg/leg__/leg__gb_6.ogg' type='audio/ogg'> <source src='https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/l/leg/leg__/leg__gb_6.mp3' type='audio/mpeg'>Your browser does not support the audio element. </audio></td> </tr> <tr> <td>knee</td> <td>/niː/ (không có âm /k/ ở đầu đâu nhá!)</td> <td>n</td> <td>đầu gối</td> <td><audio controls preload='auto'> <source src='https://www.oxfordlearnersdictionaries.com/media/english/uk_pron_ogg/k/kne/knee_/knee__gb_3.ogg' type='audio/ogg'> <source src='https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/k/kne/knee_/knee__gb_3.mp3' type='audio/mpeg'>Your browser does not support the audio element. </audio></td> </tr> <tr> <td>toe</td> <td>/təʊ/</td> <td>n</td> <td>ngón chân</td> <td><audio controls preload='auto'> <source src='https://www.oxfordlearnersdictionaries.com/media/english/uk_pron_ogg/t/toe/toe__/toe__gb_2.ogg' type='audio/ogg'> <source src='https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/t/toe/toe__/toe__gb_2.mp3' type='audio/mpeg'>Your browser does not support the audio element. </audio></td> </tr> <tr> <td>beard</td> <td>/bɪəd/</td> <td>n</td> <td>bộ râu</td> <td><audio controls preload='auto'> <source src='https://www.oxfordlearnersdictionaries.com/media/english/uk_pron_ogg/b/bea/beard/beard__gb_2.ogg' type='audio/ogg'> <source src='https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/b/bea/beard/beard__gb_2.mp3' type='audio/mpeg'>Your browser does not support the audio element. </audio></td> </tr> <tr> <td>moustache</td> <td>/ˈmʌstæʃ/</td> <td>n</td> <td>bộ ria</td> <td><audio controls preload='auto'> <source src='https://www.oxfordlearnersdictionaries.com/media/english/uk_pron_ogg/m/mus/musta/mustache__gb_3.ogg' type='audio/ogg'> <source src='https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/m/mus/musta/mustache__gb_3.mp3' type='audio/mpeg'>Your browser does not support the audio element. </audio></td> </tr> <tr> <td>curly</td> <td>/ˈkɜːli/</td> <td>adj</td> <td>uốn cong</td> <td><audio controls preload='auto'> <source src='https://www.oxfordlearnersdictionaries.com/media/english/uk_pron_ogg/c/cur/curly/curly__gb_1.ogg' type='audio/ogg'> <source src='https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/c/cur/curly/curly__gb_1.mp3' type='audio/mpeg'>Your browser does not support the audio element. </audio></td> </tr> <tr> <td>fat</td> <td>/fæt/</td> <td>adj</td> <td>béo</td> <td><audio controls preload='auto'> <source src='https://www.oxfordlearnersdictionaries.com/media/english/uk_pron_ogg/f/fat/fat__/fat__gb_1.ogg' type='audio/ogg'> <source src='https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/f/fat/fat__/fat__gb_1.mp3' type='audio/mpeg'>Your browser does not support the audio element. </audio></td> </tr></table><br><img src='https://www.oxfordlearnersdictionaries.com/media/english/fullsize/b/bod/body_/body_hand.png' width='500px'><br><img src='https://www.oxfordlearnersdictionaries.com/media/english/fullsize/b/bod/body_/body.png' width='500px'>",
+                    "button_show": "Hoàn thành",
+                    "part_instruction": "Hoàn thành [?1]",
+                    "answer_note": "",
+                    "answer": [
+                    ],
+                    "points": 10
+                },
+                {
+                    "header": "",
+                    "instruction": "",
+                    "question_content": "[?2] Đọc lại các từ trên. Vừa đọc vừa chỉ tay vào bộ phận tương ứng trên cơ thể. Gợi ý: Sử dụng thêm các tính từ như về kích thước (to, nhỏ, dài, ngắn) và màu sắc (đỏ, đen, trắng,…). Sử dụng một trong ba mẫu câu:<ul><li>(cái gì) của tôi (như thế nào) (mẫu câu Ai thế nào). Ví dụ: My hair is red.</li><li>tôi có (số lượng) (như thế nào) (cái gì). Ví dụ: I have a big mouth.</li><li>đây là (cái gì) của tôi. Ví dụ: This is my nose. Chỉ dùng với danh từ số ít.</li></ul>",
+                    "answer_content": "",
+                    "button_show": "Hoàn thành",
+                    "part_instruction": "Thực hiện [?2]",
+                    "answer_note": "",
+                    "answer": [],
+                    "points": 25
+                }
+            ],
+            [
+                {
+                    "header": "Grammar: Prepositions of place",
+                    "instruction": "",
+                    "question_content": "[?3] Nhìn hình, nghe và đọc lại theo âm thanh.<br><audio src='https://docs.google.com/uc?export=open&id=1jobILYTlM7Icd1QLcgkNnale8uE75P3K' controls preload='auto' type='audio/mp3'></audio><br><img src='https://i.ibb.co/nnyXvrc/image-2022-10-23-224725529.png' width='650px'>",
+                    "answer_content": "",
+                    "button_show": "Hoàn thành",
+                    "part_instruction": "Hoàn thành [?3]",
+                    "answer_note": "",
+                    "answer": [
+                    ],
+                    "points": 10
+                },
+                {
+                    "header": "",
+                    "instruction": "",
+                    "question_content": "[?4]  Đọc lại các giới từ chỉ địa điểm và nêu nghĩa của nó.",
+                    "answer_content": "<img src='https://i.ibb.co/9VJWkjv/image-2022-10-28-112232199.png' width='500px'><br><br><br><table> <tr> <th>Từ</th> <th>Phiên âm</th> <th>Từ loại</th> <th>Nghĩa</th> <th>Âm thanh</th> </tr> <tr> <td>in</td> <td>/ɪn/</td> <td>pre</td> <td>bên trong</td> <td><audio controls preload='auto'> <source src='https://www.oxfordlearnersdictionaries.com/media/english/uk_pron_ogg/i/in_/in__g/in__gb_1.ogg' type='audio/ogg'> <source src='https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/i/in_/in__g/in__gb_1.mp3' type='audio/mpeg'>Your browser does not support the audio element. </audio></td> </tr> <tr> <td>next to</td> <td>/ˈnekst tu/</td> <td>pre</td> <td>bên cạnh</td> <td><audio controls preload='auto'> <source src='https://www.oxfordlearnersdictionaries.com/media/english/uk_pron_ogg/n/nex/next_/next_to_1_gb_1.ogg' type='audio/ogg'> <source src='https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/n/nex/next_/next_to_1_gb_1.mp3' type='audio/mpeg'>Your browser does not support the audio element. </audio></td> </tr> <tr> <td>on</td> <td>/ɒn/</td> <td>pre</td> <td>bên trên</td> <td><audio controls preload='auto'> <source src='https://www.oxfordlearnersdictionaries.com/media/english/uk_pron_ogg/o/on_/on__g/on__gb_1.ogg' type='audio/ogg'> <source src='https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/o/on_/on__g/on__gb_1.mp3' type='audio/mpeg'>Your browser does not support the audio element. </audio></td> </tr> <tr> <td>in front of</td> <td></td> <td>n</td> <td>phía trước</td> <td><audio controls preload='auto'> <source src='https://docs.google.com/uc?export=open&id=1QXBkRzqB7bJDlj3aQ2s7C_lUhyAff6FW' type='audio/mpeg'>Your browser does not support the audio element. </audio></td> </tr> <tr> <td>under</td> <td>/ˈʌndə(r)/</td> <td>pre</td> <td>phía dưới</td> <td><audio controls preload='auto'> <source src='https://www.oxfordlearnersdictionaries.com/media/english/uk_pron_ogg/u/und/under/under__gb_1.ogg' type='audio/ogg'> <source src='https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/u/und/under/under__gb_1.mp3' type='audio/mpeg'>Your browser does not support the audio element. </audio></td> </tr> <tr> <td>near</td> <td>/nɪə(r)/</td> <td>pre</td> <td>ở gần</td> <td><audio controls preload='auto'> <source src='https://www.oxfordlearnersdictionaries.com/media/english/uk_pron_ogg/n/nea/near_/near__gb_2.ogg' type='audio/ogg'> <source src='https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/n/nea/near_/near__gb_2.mp3' type='audio/mpeg'>Your browser does not support the audio element. </audio></td> </tr> <tr> <td>behind</td> <td>/bɪˈhaɪnd/</td> <td>pre</td> <td>phía sau</td> <td><audio controls preload='auto'> <source src='https://www.oxfordlearnersdictionaries.com/media/english/uk_pron_ogg/b/beh/behin/behind__gb_2.ogg' type='audio/ogg'> <source src='https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/b/beh/behin/behind__gb_2.mp3' type='audio/mpeg'>Your browser does not support the audio element. </audio></td> </tr> </table>",
+                    "button_show": "Hoàn thành",
+                    "part_instruction": "Hoàn thành [?4]",
+                    "answer_note": "",
+                    "answer": [
+                    ],
+                    "points": 15
+                },
+                {
+                    "header": "",
+                    "instruction": "",
+                    "question_content": "[?5] Chọn đúng từ theo hình (như mẫu)",
+                    "answer_content": "<table> <tr> <td><img src='https://i.ibb.co/GvPyWms/image-2022-10-28-115623661.png' width='200px'></td> <td><img src='https://i.ibb.co/DQ4DJZp/image-2022-10-28-115810648.png' width='200px'></td> <td><img src='https://i.ibb.co/P40mhhj/image-2022-10-28-115923617.png' width='200px'></td> </tr> <tr> <td>Corky is [ in / under ] the bed.</td> <td>Zoe is [ on / behind ] Dave.</td> <td>Brian is [ behind / next to ] Zoe.</td> </tr> <tr> <td>under</td> <td><input type='text' name='user_input' placeholder=''></td> <td><input type='text' name='user_input' placeholder=''></td> </tr> <tr> <td><img src='https://i.ibb.co/mcpFMsZ/image-2022-10-28-120119257.png' width='200px'></td> <td><img src='https://i.ibb.co/bKGhVMk/image-2022-10-28-120151020.png' width='200px'></td> <td><img src='https://i.ibb.co/wdc0M1N/image-2022-10-28-120219482.png' width='200px'></td> </tr> <tr> <td>Corky is [ on / in ] the box.</td> <td>Zoe is [ on / under ] the table.</td> <td>Corky is [ in front of / next to ] Dave.</td> </tr> <tr> <td><input type='text' name='user_input' placeholder=''></td> <td><input type='text' name='user_input' placeholder=''></td> <td><input type='text' name='user_input' placeholder=''></td> </tr></table>",
+                    "button_show": "Kiểm tra",
+                    "part_instruction": "Trả lời đúng [?5]",
+                    "answer_note": "Viết thường các đáp án",
+                    "answer": [
+                        "behind",
+                        "next to",
+                        "in",
+                        "on",
+                        "in front of"
+                    ],
+                    "points": 20
+                },
+                {
+                    "header": "Where is he? Where is she? Where is it?",
+                    "instruction": "Remember: Nhận thấy các câu này tương đương với dạng “Ai thế nào?” ở tiếng Việt. Do đó, ta phải dùng am / is / are.<br><br><img src='https://i.ibb.co/CtqjJJb/image-2022-10-28-153418807.png' width='250px'>",
+                    "question_content": "[?6] Đọc to các ví dụ trong hình trên. Tương tự, điền giới từ chỉ địa điểm thích hợp vào chỗ trống. Đọc lại cả câu hỏi và câu trả lời.",
+                    "answer_content": "<table> <tr> <td><img src='https://i.ibb.co/98QNVYG/image-2022-10-28-153640892.png' width='200px'></td> <td><img src='https://i.ibb.co/YDDyfqH/image-2022-10-28-172721119.png' width='200px'></td> <td><img src='https://i.ibb.co/yN6mFrp/image-2022-10-28-172748214.png' width='200px'></td> </tr> <tr> <td>Where's Zoe?<br>She's <em><u>in</u></em> the bus.</td> <td>Where's the CD?<br>It's <input type='text' name='user_input' placeholder=''> the table.</td> <td>Where's the ball?<br>It's <input type='text' name='user_input' placeholder=''> the car.</td> </tr> <tr> <td><img src='https://i.ibb.co/QYv05rD/image-2022-10-28-173429153.png' width='200px'></td> <td><img src='https://i.ibb.co/10DGncr/image-2022-10-28-173533567.png' width='200px'></td> <td><img src='https://i.ibb.co/Hh1YxB3/image-2022-10-28-173558881.png' width='200px'></td> </tr> <tr> <td>Where's the car?<br>It's <input type='text' name='user_input' placeholder=''> the house.</td> <td>Where's the rubber?<br>It's <input type='text' name='user_input' placeholder=''> the desk.</td> <td>Where's Brian?<br>He's <input type='text' name='user_input' placeholder=''> the door.</td> </tr></table>",
+                    "button_show": "Kiểm tra",
+                    "part_instruction": "Trả lời đúng [?6]",
+                    "answer_note": "Viết thường các đáp án",
+                    "answer": [
+                        "on",
+                        "next to",
+                        "in front of",
+                        "under",
+                        "behind"
+                    ],
+                    "points": 30
+                },
+                {
+                    "header": "",
+                    "instruction": "",
+                    "question_content": "[?7] Chọn 8 - 10 người, vật rồi đặt câu hỏi, trả lời theo mẫu sau:<br><ul><li>Where is the pen? – It is on the table.</li><li>Where is the door? – It is next to the bathroom.</li><li>Where is my mother? – She is in the kitchen.</li></ul>",
+                    "answer_content": "",
+                    "button_show": "Hoàn thành",
+                    "part_instruction": "Hoàn thành [?7]",
+                    "answer_note": "",
+                    "answer": [  
+                    ],
+                    "points": 15
+                },
+                {
+                    "header": "",
+                    "instruction": "",
+                    "question_content": "[?8] Nhìn hình rồi điền vào chỗ trống theo mẫu.<br><img src='https://i.ibb.co/BqDq1dp/image-2022-10-28-173948435.png' width='450px'>",
+                    "answer_content": "<br><table> <tr colspan='2'> <td>Các từ cho trước: <strong>[ in , on (x2) , under , behind (x2) , in front of , next to ]</strong></td> </tr> <tr> <td>1. Where's Brian?</td> <td>He's <em><u>behind</u></em> the table.</td> </tr> <tr> <td>2. Where's the birthday cake?</td> <td>It's <em><u>on</u></em> the table.</td> </tr> <tr> <td>3. Where are the flowers?</td> <td>It's <input type='text' name='user_input' placeholder=''> the vase (vase (n): bình hoa).</td> </tr> <tr> <td>4. Where are the toy cars?</td> <td>They're <input type='text' name='user_input' placeholder=''> the table.</td> </tr> <tr> <td>5. Where's Corky (Corky: parrot's name)?</td> <td>He's <input type='text' name='user_input' placeholder=''> the two girls.</td> </tr> <tr> <td>6. Where's Zoe (Zoe: blue shirt-girl)?</td> <td>She's <input type='text' name='user_input' placeholder=''> the sofa.</td> </tr> <tr> <td>7. Where's Dave (Dave: black shirt-boy)?</td> <td>He's <input type='text' name='user_input' placeholder=''> Zoe.</td> </tr> <tr> <td>8. Where are the presents (present (n): món quà)?</td> <td>They're <input type='text' name='user_input' placeholder=''> the sofa.</td> </tr></table>",
+                    "button_show": "Kiểm tra",
+                    "part_instruction": "Trả lời đúng [?8]",
+                    "answer_note": "Viết thường các đáp án",
+                    "answer": [
+                        "in",
+                        "under",
+                        "in front of",
+                        "behind",
+                        "next to",
+                        "on"
+                    ],
+                    "points": 25
+                }
+            ],
+            [
+                {
+                    "header": "",
+                    "instruction": "",
+                    "question_content": "[?9] Miêu tả khuôn mặt và cơ thể (cả phần chân) của em. Gợi ý: Sử dụng thêm các tính từ như về kích thước (to, nhỏ, dài, ngắn) và màu sắc (đỏ, đen, trắng,…). Sử dụng một trong ba mẫu câu:<br><ul><li>(cái gì) của tôi (như thế nào) (mẫu câu Ai thế nào). Ví dụ: My hair is red.</li><li>tôi có (số lượng) (như thế nào) (cái gì). Ví dụ: I have a big mouth.</li><li>đây là (cái gì) của tôi. Ví dụ: This is my nose. Chỉ dùng với danh từ số ít.</li></ul>",
+                    "answer_content": "",
+                    "button_show": "Đã gửi",
+                    "part_instruction": "Quay và gửi bài qua Zalo cho anh",
+                    "answer_note": "",
+                    "answer": [],
+                    "points": 15
+                },
+                {
+                    "header": "",
+                    "instruction": "",
+                    "question_content": "[?10]  Quay video bài [?9] và gửi Zalo cho anh. Yêu cầu:<br><ul><li>độ dài video từ 1 – 2 phút, có giới thiệu bản thân.</li><li>kết hợp sử dụng tay để chỉ các bộ phận trên khuôn mặt và cơ thể.</li><li>giọng tự nhiên, ngắt nghỉ đúng lúc, phát âm đúng.</li></ul>",
+                    "answer_content": "",
+                    "button_show": "Đã gửi",
+                    "part_instruction": "Quay và gửi bài qua Zalo cho anh",
+                    "answer_note": "",
+                    "answer": [],
+                    "points": 20
+                }
+            ],
+            [
+                {
+                    "header": "Chúc mừng bạn đã hoàn thành",
+                    "instruction": "Nhấn nút F11 để thoát màn hình. Chúc mừng bạn đã hoàn thành bài tập. Hãy nộp kết quả của bạn qua Zalo.",
+                    "question_content": "<b>Vào ứng dụng Toss để nhận toàn bộ các hộp quà.<br>Nhấn nút Kết thúc bài học, lấy điện thoại chụp số điểm và thời gian còn lại rồi gửi cho anh qua Zalo.</b>",
+                    "answer_content": "",
+                    "button_show": "Đã gửi qua Zalo!",
+                    "part_instruction": "",
+                    "answer_note": "Phần bài tập thêm nếu rảnh thì làm. Ngày nào cũng phải ôn lại các từ của 2 phần Animal và My Body nhé (bằng cách đặt câu như các bài ở trên).",
+                    "answer": [],
+                    "points": 1
+                }
+            ]
+        ]
+    }
+]

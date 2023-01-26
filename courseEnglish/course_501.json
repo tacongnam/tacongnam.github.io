@@ -1,0 +1,237 @@
+[
+    {
+        "week_name": "Week 5 - My Body",
+        "course_name": "Lesson 2 - My Body",
+        "course_time": "7200",
+        "auto_stop": 900,
+        "pass_score": 140,
+        "preparation_code": "<ul><li>Giấy, bút để học hiệu quả.</li><li>Dọn dẹp bàn học rộng rãi, thoáng mát.</li><li>Thời gian tối đa của bài học này là 120 phút. <b>Cứ mỗi 15' thì bài thi sẽ tạm dừng. Hãy đứng dậy không nhìn máy tính để đỡ mỏi mắt!</b></li><li>Hướng dẫn: Chuyển qua các phần khác (listening, reading,...) bằng cách nhấn vào phần đó trong ô phía trên.</li><li>Nếu bấm kiểm tra không chạy thì đợi khoảng 5s rồi bấm lại.</li><li>Không nhấn F5 trong khi đang học vì sẽ bị mất hết dữ liệu. Khi làm xong bài nào nhớ bấm 'Kiểm tra' hoặc 'Hoàn thành' để kiểm tra cũng như lưu lại điểm. Khi hết giờ, hệ thống cũng sẽ chấm lại toàn bộ các bài, kể cả các bài đang làm nhưng chưa bấm 'Hoàn thành' hay 'Kiểm tra'.</li></ul>",
+        "parts_code": [
+            "Introduction",
+            "Goals",
+            "Vocabulary_Review",
+            "Vocabulary",
+            "Grammar_ThisThat",
+            "Grammar_TheseThose",
+            "Grammar_What",
+            "Last"
+        ],
+        "parts_name": [
+            "Hướng dẫn",
+            "Mục tiêu bài học",
+            "Từ vựng: Review - My Face",
+            "Từ vựng: My body",
+            "Ngữ pháp: This / That",
+            "Ngữ pháp: These / Those",
+            "Ngữ pháp: What's this? / What's that?",
+            "Phần cuối cùng"
+        ],
+        "course_content": [
+            [
+                {
+                    "header": "Mục tiêu bài học",
+                    "instruction": "<ul><li>Biết và sử dụng thành thạo từ ngữ về các bộ phận trên cơ thể.</li><li>Hiểu và lập được câu với this, that, these, those.</li><li>Điểm đạt của bài học này là <strong>140 / 185</strong>.</li></ul><p><strong>In tài liệu giấy được gửi trước đó. Sử dụng tài liệu giấy để học. Đến bài nào thì mới làm ở máy bàiđấy.</strong></p>",
+                    "question_content": "Đọc to mục tiêu bài học",
+                    "answer_content": "",
+                    "button_show": "Hoàn thành",
+                    "part_instruction": "",
+                    "answer_note": "",
+                    "answer": [],
+                    "points": 0
+                }
+            ],
+            [
+                {
+                    "header": "Vocabulary: Review - My face",
+                    "instruction": "",
+                    "question_content": "<p>[?1] Miêu tả các bộ phận trên khuôn mặt của em. Sử dụng một trong ba mẫu câu:</p><ul><li>(cái gì) của tôi (như thế nào) (mẫu câu Ai thế nào). Ví dụ: My hair is red.</li><li>tôi có (số lượng) (như thế nào) (cái gì). Ví dụ: I have a big mouth.</li><li>đây là (cái gì) của tôi. Ví dụ: This is my nose. Chỉ dùng với danh từ số ít.</li></ul><p>Gợi ý: Sử dụng thêm các tính từ như về kích thước (to, nhỏ, dài, ngắn) và màu sắc (đỏ, đen, trắng,…)</p><p>Lưu ý: Vừa nói vừa chỉ tay vào bộ phận tương ứng trên khuôn mặt của mình.</p>",
+                    "answer_content": "",
+                    "button_show": "Hoàn thành",
+                    "part_instruction": "",
+                    "answer_note": "",
+                    "answer": [],
+                    "points": 10
+                }
+            ],
+            [
+                {
+                    "header": "Vocabulary: My body",
+                    "instruction": "",
+                    "question_content": "[?2] Chép các từ sau vào vở học từ. Trong lúc chép hãy đọc to từ lên nhiều lần. Bấm vào biểu tượng âm thành trên web để phát âm từ<br>",
+                    "answer_content": "<br><table><tr><th>Từ</th><th>Phiên âm</th><th>Từ loại</th><th>Nghĩa</th><th>Âm thanh</th></tr><tr><td>body</td><td>/ˈbɒdi/</td><td>n</td><td>cơ thể</td><td><audio controls preload='auto'><source src='https://www.oxfordlearnersdictionaries.com/media/english/uk_pron_ogg/b/bod/body_/body__gb_2.ogg' type='audio/ogg'><source src='https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/b/bod/body_/body__gb_2.mp3' type='audio/mpeg'>Your browser does not support the audio element.</audio></td></tr><tr><td>back</td><td>/bæk/</td><td>n</td><td>lưng</td><td><audio controls preload='auto'><source src='https://www.oxfordlearnersdictionaries.com/media/english/uk_pron_ogg/b/bac/back_/back__gb_2.ogg' type='audio/ogg'><source src='https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/b/bac/back_/back__gb_2.mp3' type='audio/mpeg'>Your browser does not support the audio element.</audio></td></tr><tr><td>hand</td><td>/hænd/</td><td>n</td><td>tay</td><td><audio controls preload='auto'><source src='https://www.oxfordlearnersdictionaries.com/media/english/uk_pron_ogg/h/han/hand_/hand__gb_2.ogg' type='audio/ogg'><source src='https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/h/han/hand_/hand__gb_2.mp3' type='audio/mpeg'>Your browser does not support the audio element.</audio></td></tr><tr><td>arm</td><td>/ɑːm/</td><td>n</td><td>cẳng tay</td><td><audio controls preload='auto'><source src='https://www.oxfordlearnersdictionaries.com/media/english/uk_pron_ogg/a/arm/arm__/arm__gb_2.ogg'type='audio/ogg'><source src='https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/a/arm/arm__/arm__gb_2.mp3' type='audio/mpeg'>Your browser does not support the audio element.</audio></td></tr><tr><td>neck</td><td>/nek/</td><td>n</td><td>cổ</td><td><audio controls preload='auto'><source src='https://www.oxfordlearnersdictionaries.com/media/english/uk_pron_ogg/n/nec/neck_/neck__gb_2.ogg' type='audio/ogg'><source src='https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/n/nec/neck_/neck__gb_2.mp3' type='audio/mpeg'>Your browser does not support the audio element.</audio></td></tr><tr><td>shoulder</td><td>/ˈʃəʊldə(r)/</td><td>n</td><td>vai</td><td><audio controls preload='auto'><source src='https://www.oxfordlearnersdictionaries.com/media/english/uk_pron_ogg/s/sho/shoul/shoulder__gb_1.ogg' type='audio/ogg'><source src='https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/s/sho/shoul/shoulder__gb_1.mp3' type='audio/mpeg'>Your browser does not support the audio element.</audio></td></tr><tr><td>stomach</td><td> /ˈstʌmək/</td><td>n</td><td>bụng, dạ dày</td><td><audio controls preload='auto'><source src='https://www.oxfordlearnersdictionaries.com/media/english/uk_pron_ogg/s/sto/stoma/stomach__gb_2.ogg' type='audio/ogg'><source src='https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/s/sto/stoma/stomach__gb_2.mp3' type='audio/mpeg'>Your browser does not support the audio element.</audio></td></tr><tr><td>thin</td><td>/θɪn/</td><td>adj</td><td>gầy</td><td><audio controls preload='auto'><source src='https://www.oxfordlearnersdictionaries.com/media/english/uk_pron_ogg/t/thi/thin_/thin__gb_2.ogg' type='audio/ogg'><source src='https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/t/thi/thin_/thin__gb_2.mp3' type='audio/mpeg'>Your browser does not support the audio element.</audio></td></tr><tr><td>elbow</td><td>/ˈelbəʊ/</td><td>v</td><td>khuỷu tay</td><td><audio controls preload='auto'><source src='https://www.oxfordlearnersdictionaries.com/media/english/uk_pron_ogg/e/elb/elbow/elbow__gb_2.ogg' type='audio/ogg'><source src='https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/e/elb/elbow/elbow__gb_2.mp3' type='audio/mpeg'>Your browser does not support the audio element.</audio></td></tr><tr><td>finger</td><td>/ˈfɪŋɡə(r)/</td><td>n</td><td>ngón tay</td><td><audio controls preload='auto'><source src='https://www.oxfordlearnersdictionaries.com/media/english/uk_pron_ogg/f/fin/finge/finger__gb_1.ogg' type='audio/ogg'><source src='https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/f/fin/finge/finger__gb_1.mp3' type='audio/mpeg'>Your browser does not support the audio element.</audio></td></tr></table><br><img src='https://www.oxfordlearnersdictionaries.com/media/english/fullsize/b/bod/body_/body_hand.png' width='500px'><br><img src='https://www.oxfordlearnersdictionaries.com/media/english/fullsize/b/bod/body_/body.png' width='500px'>",
+                    "button_show": "Hoàn thành",
+                    "part_instruction": "Hoàn thành [?2]",
+                    "answer_note": "",
+                    "answer": [
+                    ],
+                    "points": 10
+                },
+                {
+                    "header": "",
+                    "instruction": "",
+                    "question_content": "[?3] Đọc lại các từ trên. Vừa đọc vừa chỉ tay vào bộ phận tương ứng trên cơ thể. Gợi ý: Sử dụng thêm cáctính từ như về kích thước (to, nhỏ, dài, ngắn) và màu sắc (đỏ, đen, trắng,…). Sử dụng một trong ba mẫucâu:<br><ul><li>(cái gì) của tôi (như thế nào) (mẫu câu Ai thế nào). Ví dụ: My hair is red.</li><li>tôi có (số lượng) (như thế nào) (cái gì). Ví dụ: I have a big mouth.</li><li>đây là (cái gì) của tôi. Ví dụ: This is my nose. Chỉ dùng với danh từ số ít.</li></ul>",
+                    "answer_content": "",
+                    "button_show": "Hoàn thành",
+                    "part_instruction": "Thực hiện [?3]",
+                    "answer_note": "",
+                    "answer": [],
+                    "points": 10
+                },
+                {
+                    "header": "",
+                    "instruction": "",
+                    "question_content": "[?4] Miêu tả các bộ phận trên khuôn mặt của một người nào đó khác (nên chọn người ít tuổi để dễ miêu tả). Sử dụng các mẫu câu và từ vựng như [?3].",
+                    "answer_content": "",
+                    "button_show": "Hoàn thành",
+                    "part_instruction": "Thực hiện [?4]",
+                    "answer_note": "",
+                    "answer": [],
+                    "points": 10
+                },
+                {
+                    "header": "",
+                    "instruction": "",
+                    "question_content": "[?5] Quay video bài [?4] và gửi Zalo cho anh. Yêu cầu:<br><ul><li>độ dài video từ 1 – 2 phút, có giới thiệu bản thân.</li><li>kết hợp sử dụng tay để chỉ các bộ phận trên khuôn mặt và cơ thể.</li><li>giọng tự nhiên, ngắt nghỉ đúng lúc, phát âm đúng.</li></ul>",
+                    "answer_content": "",
+                    "button_show": "Đã gửi",
+                    "part_instruction": "Quay và gửi bài qua Zalo cho anh",
+                    "answer_note": "Câu này có giá trị 30 điểm. Mặc định khi chấm thì sẽ được 30 điểm, tuy nhiên điểm sẽ thay đổi sau khi anh chấm.",
+                    "answer": [],
+                    "points": 30
+                },
+                {
+                    "header": "",
+                    "instruction": "",
+                    "question_content": "[?6] Học và làm bài tập tiếng Anh của thầy",
+                    "answer_content": "",
+                    "button_show": "Hoàn thành",
+                    "part_instruction": "Đã hoàn thành bài tập của thầy",
+                    "answer_note": "",
+                    "answer": [],
+                    "points": 10
+                }
+            ],
+            [
+                {
+                    "header": "Grammar: Review - This / That",
+                    "instruction": "",
+                    "question_content": "[?7] Chỉ tay vào một số (từ 8 – 10) đồ vật trong nhà và tự hỏi đáp với this / that.",
+                    "answer_content": "<img src='https://i.ibb.co/t4K1Ffb/image-2022-10-21-092918210.png' width='500px'>",
+                    "button_show": "Hoàn thành",
+                    "part_instruction": "Hoàn thành [?7]",
+                    "answer_note": "",
+                    "answer": [],
+                    "points": 10
+                }
+            ],
+            [
+                {
+                    "header": "These / Those",
+                    "instruction": "",
+                    "question_content": "[?8] Biết rằng this / that dùng với danh từ số ít; these / those dùng với danh từ số nhiều.<br>Điền these / those vào chỗ trống<br>",
+                    "answer_content": "<table> <tr> <th>Sentence</th> <th>Image</th> </tr> <tr> <td>1. <em>These</em> are happy children.</td> <td><img src='https://i.ibb.co/PmPq4qc/image-2022-10-21-093318957.png' width='450px'></td> </tr> <tr> <td>2. <em>Those</em> are sad children.</td> <td><img src='https://i.ibb.co/D8Ysh4W/image-2022-10-21-093423021.png' width='450px'></td> </tr> <tr> <td>3. <input type='text' name='user_input' placeholder=''> are red kites.</td> <td><img src='https://i.ibb.co/x7nW2Mk/image-2022-10-21-093528990.png' width='450px'></td> </tr> <tr> <td>4. <input type='text' name='user_input' placeholder=''> are green kites.</td> <td><img src='https://i.ibb.co/K60Dfsd/image-2022-10-21-093706583.png' width='450px'></td> </tr> <tr> <td>5. <input type='text' name='user_input' placeholder=''> are small T-shirts.</td> <td><img src='https://i.ibb.co/CMrH1xp/image-2022-10-21-093754344.png' width='450px'></td> </tr> <tr> <td>6. <input type='text' name='user_input' placeholder=''> are big T-shirts.</td> <td><img src='https://i.ibb.co/2n56XJ3/image-2022-10-21-093848151.png' width='450px'></td> </tr> <tr> <td>7. <input type='text' name='user_input' placeholder=''> are green dinosaurs.</td> <td><img src='https://i.ibb.co/8rf20Zs/image-2022-10-21-093924087.png' width='450px'></td> </tr> <tr> <td>8. <input type='text' name='user_input' placeholder=''> are brown dinosaurs.</td> <td><img src='https://i.ibb.co/rF4TyTc/image-2022-10-21-094002662.png' width='450px'></td> </tr></table>",
+                    "button_show": "Hoàn thành",
+                    "part_instruction": "Hoàn thành [?8]",
+                    "answer_note": "Viết chữ hoa đầu câu.",
+                    "answer": [
+                        "These",
+                        "Those",
+                        "These",
+                        "Those",
+                        "These",
+                        "Those"
+                    ],
+                    "points": 20
+                },
+                {
+                    "header": "",
+                    "instruction": "<strong><em>Remember:</em></strong><br><table><tr><th>Singular</th><th>Plural</th></tr><tr><td>This is a dog.</td><td>These are two dogs.</td></tr><tr><td>That is a cat.</td><td>Those are two cats.</td></tr></table><br>",
+                    "question_content": "[?9] Điền is hoặc are vào chỗ trống.",
+                    "answer_content": "<table> <tr> <th>Sentence</th> <th>Image</th> </tr> <tr> <td>This <em>is</em> a big car.</td> <td>Those <em>are</em> good pictures.</td> </tr> <tr> <td>That <input type='text' name='user_input' placeholder=''> a small windows.</td> <td>These <input type='text' name='user_input' placeholder=''> red pens.</td> </tr> <tr> <td>Those <input type='text' name='user_input' placeholder=''> green apples.</td> <td>This <input type='text' name='user_input' placeholder=''> a clever dog.</td> </tr> </table>",
+                    "button_show": "Kiểm tra",
+                    "part_instruction": "Trả lời đúng [?9]",
+                    "answer_note": "Viết các đáp án như mẫu ở trên.",
+                    "answer": [
+                        "is",
+                        "are",
+                        "are",
+                        "is"
+                    ],
+                    "points": 20
+                },
+                {
+                    "header": "",
+                    "instruction": "",
+                    "question_content": "[?10] Chỉ tay vào một số (10 – 12) đồ vật trong nhà và tự hỏi đáp với this / that / these / those (theo mẫu).<br><img src='https://i.ibb.co/cy8jdjR/image-2022-10-21-095825246.png' width='500px'>",
+                    "answer_content": "",
+                    "button_show": "Hoàn thành",
+                    "part_instruction": "Hoàn thành [?10]",
+                    "answer_note": "",
+                    "answer": [
+                    ],
+                    "points": 10
+                }
+            ],
+            [
+                {
+                    "header": "What's this? / What's that?",
+                    "instruction": "Các mẫu câu [ Is this / Is that / Are these / Are those … ] dùng để kiểm tra xem đồ vật mình hỏi đúng không. Ví dụ: Are these green birds? => Dùng để hỏi xem đây có phải là những con chim không?<br>Như vậy, nếu không biết đồ vật đó gọi là gì, ta hỏi như thế nào?<br>",
+                    "question_content": "[?11] Nhìn hình, nghe và đọc lại theo âm thanh (web).",
+                    "answer_content": "<audio src='https://docs.google.com/uc?export=open&id=12HJxzZKTiasp4vQaWOMlliBm-YnzXFR_' controls preload='auto' type='audio/mp3'></audio><br><img src='https://i.ibb.co/7rJV1PV/image-2022-10-21-100249755.png' width='600px'>",
+                    "button_show": "Hoàn thành",
+                    "part_instruction": "Hoàn thành [?11]",
+                    "answer_note": "",
+                    "answer": [],
+                    "points": 10
+                },
+                {
+                    "header": "",
+                    "instruction": "<strong><em>Remember:</em></strong><br><ul><li>Chúng ta trả lời câu hỏi What’s this / that? bằng It’s …</li><li>Chúng ta trả lời câu hỏi What’re these / those? bằng They’re…</li></ul><br><table style='border: 0px'><tr><td><img src='https://i.ibb.co/sPR2RtD/image-2022-10-21-100806880.png' width='350px'></td><td><img src='https://i.ibb.co/0qkZX2r/image-2022-10-21-100934251.png' width='350px'></td></tr></table><br>",
+                    "question_content": "[?12] Điền các từ cho trước sau vào chỗ trống:<br><strong>[ this / these / that / those / It’s / They’re ]</strong><br>",
+                    "answer_content": "<img src='https://i.ibb.co/sJQXsvL/image-2022-10-21-101409251.png' width='700px'><br><br><table><tr><td>1</td><td>This<br>It's</td></tr><tr><td>2</td><td>What's <input type='text' name='user_input' placeholder=''> ?<br><input type='text' name='user_input' placeholder=''> a picture.</td></tr><tr><td>3</td><td>What are <input type='text' name='user_input' placeholder=''>?<br><input type='text' name='user_input' placeholder=''> bees.</td></tr><tr><td>4</td><td>What are <input type='text' name='user_input' placeholder=''><br><input type='text' name='user_input' placeholder=''> school bags.</td></tr><tr><td>5</td><td>What's <input type='text' name='user_input' placeholder=''> ?<br><input type='text' name='user_input' placeholder=''> a plane.</td></tr><tr><td>6</td><td>What are <input type='text' name='user_input' placeholder=''> ?<br><input type='text' name='user_input' placeholder=''> cherries.</td></tr></table>",
+                    "button_show": "Hoàn thành",
+                    "part_instruction": "Hoàn thành [?12]",
+                    "answer_note": "",
+                    "answer": [
+                        "this",
+                        "It's",
+                        "these",
+                        "They're",
+                        "these",
+                        "They're",
+                        "that",
+                        "It's",
+                        "these",
+                        "They're"
+                    ],
+                    "points": 25
+                },
+                {
+                    "header": "",
+                    "instruction": "",
+                    "question_content": "[?13] Hỏi và trả lời lại các đồ vật ở [?12] nhưng theo mẫu câu: What’s this? / What’s that? / What’re these? / What’re those?<br>Mẫu câu trong hai hình bên cạnh (có hình đính kèm trên web).",
+                    "answer_content": "<table style='border: 0px'><tr><td><img src='https://i.ibb.co/sPR2RtD/image-2022-10-21-100806880.png' width='350px'></td><td><img src='https://i.ibb.co/0qkZX2r/image-2022-10-21-100934251.png' width='350px'></td></tr></table><br>",
+                    "button_show": "Hoàn thành",
+                    "part_instruction": "Hoàn thành [?13]",
+                    "answer_note": "",
+                    "answer": [
+                    ],
+                    "points": 10
+                }
+            ],
+            [
+                {
+                    "header": "Chúc mừng bạn đã hoàn thành",
+                    "instruction": "Nhấn nút F11 để thoát màn hình. Chúc mừng bạn đã hoàn thành bài tập. Hãy nộp kết quả của bạn qua Zalo.",
+                    "question_content": "<b>Vào ứng dụng Toss để nhận toàn bộ các hộp quà.<br>Nhấn nút Kết thúc bài học, lấy điện thoại chụp số điểm và thời gian còn lại rồi gửi cho anh qua Zalo.</b>",
+                    "answer_content": "",
+                    "button_show": "Đã gửi qua Zalo!",
+                    "part_instruction": "",
+                    "answer_note": "",
+                    "answer": [],
+                    "points": 0
+                }
+            ]
+        ]
+    }
+]
