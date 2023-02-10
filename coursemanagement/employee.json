@@ -1,7 +1,7 @@
 [{
         "employeeID": "EmployeeCode",
         "fullName": "FullName",
-        "dateOfBirth": 2022-18-12,
+        "dateOfBirth": "2022-18-12",
         "gender": "GenderName",
         "email": "Email",
         "phoneNumber": "PhoneNumber",
